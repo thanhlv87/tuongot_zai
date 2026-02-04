@@ -19,6 +19,7 @@ Work Log:
     - 500ml: 50,000đ
   + Wholesale banner (bán sỉ)
   + Contact section với địa chỉ và Zalo
+  + Google Maps nhúng địa chỉ: Số 8, Ngõ 135 Núi Trúc, Giảng Võ, Hà Nội
   + Footer
 - Sử dụng shadcn/ui components: Button, Card, Badge, Separator
 - Phong cách thiết kế: tự nhiên, sáng, tông đỏ cam
@@ -32,5 +33,25 @@ Stage Summary:
 - Responsive design trên mọi thiết bị
 - 3 hình ảnh chất lượng cao được tạo tự động
 - Tất cả thông tin sản phẩm và liên hệ đã hiển thị đầy đủ
+- Google Maps đã được nhúng thành công vào Contact section
 - Code quality: Không có lỗi ESLint
 - Trang đã sẵn sàng để preview
+
+---
+Task ID: 2
+Agent: Z.ai Code
+Task: Nhúng bản đồ Google Maps vào trang landing page
+
+Work Log:
+- Thêm Google Maps iframe vào Contact section
+- Sử dụng iframe của Google Maps với địa chỉ: Số 8, Ngõ 135 Núi Trúc, Giảng Võ, Hà Nội
+- Đặt bản đồ giữa 2 card thông tin liên hệ và card cảm ơn quý khách
+- Thiết kế responsive: 400px height trên mobile, 450px trên desktop
+- Bọc bản đồ trong Card component với border-2 và border-orange-200 để đồng bộ với thiết kế
+- Code quality: Không có lỗi ESLint
+
+Stage Summary:
+- Bản đồ Google Maps đã được nhúng thành công
+- Bản đồ hiển thị đúng địa chỉ cửa hàng
+- Responsive design hoạt động tốt trên mọi thiết bị
+- Giao diện đồng bộ với phong cách tổng thể của trang web
