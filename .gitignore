@@ -46,3 +46,9 @@ prisma/*.db-journal
 
 # Generated images
 db/
+
+# Skills and examples (not needed for production)
+skills/
+examples/
+upload/
+download/
