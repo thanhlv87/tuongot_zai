@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   keywords: ["Bông Ớt", "tương ớt", "tương ớt tự nhiên", "tương ớt không tỏi"],
   authors: [{ name: "Bông Ớt" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/flash.png",
   },
   openGraph: {
     title: "Bông Ớt - Tương Ớt Tự Nhiên",
