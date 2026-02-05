@@ -4,16 +4,18 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardFooter } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
-import { 
-  Flame, 
-  Heart, 
-  ShieldCheck, 
-  Truck, 
-  Phone, 
+import Link from 'next/link'
+import {
+  Flame,
+  Heart,
+  ShieldCheck,
+  Truck,
+  Phone,
   MapPin,
   CheckCircle2,
   Package,
-  ShoppingBag
+  ShoppingBag,
+  BookOpen
 } from 'lucide-react'
 
 export default function Home() {
@@ -39,22 +41,31 @@ export default function Home() {
               <span className="text-xl font-bold text-orange-700">Bông Ớt</span>
             </div>
             <nav className="hidden md:flex items-center gap-6">
-              <Button 
-                variant="ghost" 
+              <Button
+                variant="ghost"
                 onClick={scrollToProducts}
                 className="text-gray-700 hover:text-orange-600"
               >
                 Sản Phẩm
               </Button>
-              <Button 
-                variant="ghost" 
+              <Link href="/blog">
+                <Button
+                  variant="ghost"
+                  className="text-gray-700 hover:text-orange-600"
+                >
+                  <BookOpen className="mr-2 h-4 w-4" />
+                  Blog
+                </Button>
+              </Link>
+              <Button
+                variant="ghost"
                 onClick={scrollToContact}
                 className="text-gray-700 hover:text-orange-600"
               >
                 Liên Hệ
               </Button>
             </nav>
-            <Button 
+            <Button
               onClick={scrollToProducts}
               className="bg-orange-600 hover:bg-orange-700 text-white"
             >
@@ -82,11 +93,11 @@ export default function Home() {
                 Khỏe mạnh - Tự nhiên - An toàn
               </p>
               <p className="text-base text-gray-500 max-w-lg mx-auto lg:mx-0">
-                Tương ớt được làm từ nguyên liệu tươi ngon, không tỏi, không cà chua, 
+                Tương ớt được làm từ nguyên liệu tươi ngon, không tỏi, không cà chua,
                 không chất bảo quản. Giữ trọn hương vị tự nhiên và an toàn cho sức khỏe.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-                <Button 
+                <Button
                   onClick={scrollToProducts}
                   size="lg"
                   className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white text-lg px-8 py-6 rounded-full"
@@ -94,7 +105,7 @@ export default function Home() {
                   <ShoppingBag className="mr-2 h-5 w-5" />
                   Đặt Mua Ngay
                 </Button>
-                <Button 
+                <Button
                   onClick={scrollToContact}
                   size="lg"
                   variant="outline"
@@ -142,7 +153,7 @@ export default function Home() {
                   Không Chất Bảo Quản
                 </h3>
                 <p className="text-gray-600">
-                  Sản phẩm hoàn toàn tự nhiên, không sử dụng bất kỳ chất bảo quản nào, 
+                  Sản phẩm hoàn toàn tự nhiên, không sử dụng bất kỳ chất bảo quản nào,
                   an toàn tuyệt đối cho sức khỏe.
                 </p>
               </CardContent>
@@ -158,7 +169,7 @@ export default function Home() {
                   Không Tỏi - Không Cà Chua
                 </h3>
                 <p className="text-gray-600">
-                  Công thức độc đáo từ ớt tươi, không tỏi và không cà chua, 
+                  Công thức độc đáo từ ớt tươi, không tỏi và không cà chua,
                   phù hợp cho cả người nhạy cảm.
                 </p>
               </CardContent>
@@ -174,7 +185,7 @@ export default function Home() {
                   100% Nguyên Liệu Tươi
                 </h3>
                 <p className="text-gray-600">
-                  Ớt tươi được tuyển chọn kỹ càng, giữ nguyên hương vị tự nhiên, 
+                  Ớt tươi được tuyển chọn kỹ càng, giữ nguyên hương vị tự nhiên,
                   không qua bất kỳ quá trình chế biến hóa học nào.
                 </p>
               </CardContent>
@@ -271,7 +282,7 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter className="p-6 pt-0">
-                <Button 
+                <Button
                   onClick={() => window.open(zaloUrl, '_blank')}
                   className="w-full bg-orange-600 hover:bg-orange-700 text-white text-lg py-6"
                 >
@@ -307,7 +318,7 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter className="p-6 pt-0">
-                <Button 
+                <Button
                   onClick={() => window.open(zaloUrl, '_blank')}
                   className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white text-lg py-6"
                 >
@@ -326,10 +337,10 @@ export default function Home() {
                 Mua Sỉ - Giá Tốt Hơn
               </h3>
               <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-                Bạn là cửa hàng, quán ăn, nhà hàng? Liên hệ với chúng tôi để nhận giá ưu đãi 
+                Bạn là cửa hàng, quán ăn, nhà hàng? Liên hệ với chúng tôi để nhận giá ưu đãi
                 và chiết khấu hấp dẫn cho đơn hàng số lượng lớn.
               </p>
-              <Button 
+              <Button
                 onClick={() => window.open(zaloUrl, '_blank')}
                 size="lg"
                 className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6 rounded-full"
@@ -392,7 +403,7 @@ export default function Home() {
                       <p className="text-gray-600 mb-3">
                         Hotline: 0982 722 036
                       </p>
-                      <Button 
+                      <Button
                         onClick={() => window.open(zaloUrl, '_blank')}
                         className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white"
                       >
@@ -431,7 +442,7 @@ export default function Home() {
                   Cảm ơn Quý Khách!
                 </h3>
                 <p className="text-gray-600 max-w-xl mx-auto">
-                  Chúng tôi rất hân hạnh được phục vụ. Sự hài lòng của quý khách là động lực 
+                  Chúng tôi rất hân hạnh được phục vụ. Sự hài lòng của quý khách là động lực
                   để chúng tôi không ngừng hoàn thiện và mang đến những sản phẩm tốt nhất.
                 </p>
               </CardContent>
@@ -450,7 +461,7 @@ export default function Home() {
                 <span className="text-xl font-bold">Bông Ớt</span>
               </div>
               <p className="text-gray-300 text-sm">
-                Sản phẩm tương ớt tự nhiên, không chất bảo quản, không tỏi, không cà chua. 
+                Sản phẩm tương ớt tự nhiên, không chất bảo quản, không tỏi, không cà chua.
                 Hương vị đích thực, an toàn cho sức khỏe.
               </p>
             </div>
