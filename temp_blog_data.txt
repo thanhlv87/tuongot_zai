@@ -1,0 +1,1584 @@
+﻿const blogPosts: BlogPost[] = [
+    {
+        id: '1',
+        title: 'KhÃ¡m PhÃ¡ CÃ¡c Loáº¡i á»št TrÃªn Tháº¿ Giá»›i',
+        excerpt: 'Tá»« á»›t chuÃ´ng ngá»t ngÃ o Ä‘áº¿n nhá»¯ng siÃªu á»›t cay nÃ³ng, tháº¿ giá»›i á»›t Ä‘a dáº¡ng vÃ  phong phÃº hÆ¡n báº¡n tÆ°á»Ÿng. CÃ¹ng tÃ¬m hiá»ƒu vá» cÃ¡c loáº¡i á»›t phá»• biáº¿n vÃ  thang Ä‘o Scoville.',
+        content: `
+## Thang Äo Scoville - ÄÆ¡n Vá»‹ Äo Äá»™ Cay
+
+Äá»™ cay cá»§a á»›t Ä‘Æ°á»£c Ä‘o báº±ng thang Scoville Heat Units (SHU), phÃ¡t minh bá»Ÿi dÆ°á»£c sÄ© Wilbur Scoville nÄƒm 1912. Thang Ä‘o nÃ y Ä‘o ná»“ng Ä‘á»™ capsaicin - há»£p cháº¥t táº¡o nÃªn vá»‹ cay.
+
+**CÃ¡c má»©c Ä‘á»™ cay:**
+- 0 SHU: KhÃ´ng cay
+- 1-2,500 SHU: Nháº¹
+- 2,500-30,000 SHU: Trung bÃ¬nh
+- 30,000-100,000 SHU: Cay
+- 100,000-500,000 SHU: Ráº¥t cay
+- 500,000+ SHU: Cá»±c ká»³ cay
+
+## á»št Nháº¹ (0-2,500 SHU)
+
+### á»št ChuÃ´ng (0 SHU)
+á»št chuÃ´ng khÃ´ng chá»©a capsaicin nÃªn khÃ´ng cay, cÃ³ vá»‹ ngá»t tá»± nhiÃªn. CÃ³ nhiá»u mÃ u: xanh, Ä‘á», vÃ ng, cam, tÃ­m. GiÃ u vitamin C vÃ  cháº¥t chá»‘ng oxy hÃ³a.
+
+**CÃ´ng dá»¥ng:** Salad, xÃ o, nÆ°á»›ng, sá»‘t
+
+### Poblano (1,000-2,000 SHU)
+á»št Mexico cá»¡ lá»›n, vá»‹ nháº¹ nhÃ ng, thÆ°á»ng dÃ¹ng Ä‘á»ƒ nhá»“i. Khi phÆ¡i khÃ´ trá»Ÿ thÃ nh á»›t Ancho vá»›i hÆ°Æ¡ng vá»‹ ngá»t vÃ  khÃ³i.
+
+**CÃ´ng dá»¥ng:** Chiles rellenos, mole
+
+### Anaheim (500-2,500 SHU)
+á»št dÃ i nháº¹ cay, hÆ¡i chua, phá»• biáº¿n trong áº©m thá»±c Tex-Mex.
+
+## á»št Trung BÃ¬nh (2,500-30,000 SHU)
+
+### JalapeÃ±o (2,500-8,000 SHU)
+á»št JalapeÃ±o lÃ  má»™t trong nhá»¯ng loáº¡i á»›t phá»• biáº¿n nháº¥t tháº¿ giá»›i. Vá»‹ cay vá»«a pháº£i, hÆ¡i ngá»t. Khi hun khÃ³i vÃ  sáº¥y khÃ´ trá»Ÿ thÃ nh Chipotle.
+
+**Äáº·c Ä‘iá»ƒm:**
+- MÃ u xanh hoáº·c Ä‘á» khi chÃ­n
+- DÃ i 5-9cm
+- Thá»‹t dÃ y, giÃ²n
+- HÆ°Æ¡ng vá»‹ tÆ°Æ¡i mÃ¡t
+
+**CÃ´ng dá»¥ng:** Salsa, nachos, pickled, phá»Ÿ, bÃºn
+
+### Serrano (10,000-25,000 SHU)
+Nhá» hÆ¡n JalapeÃ±o nhÆ°ng cay hÆ¡n 5 láº§n. Vá»‹ tÆ°Æ¡i, sáº¯c nÃ©t, lÃ½ tÆ°á»Ÿng cho salsa tÆ°Æ¡i vÃ  guacamole.
+
+**CÃ´ng dá»¥ng:** Pico de gallo, salsa verde
+
+### Cayenne (30,000-50,000 SHU)
+á»št Ä‘á» dÃ i, thÆ°á»ng sáº¥y khÃ´ vÃ  xay thÃ nh bá»™t. CÃ³ hÆ°Æ¡ng thá»• vÃ  vá»‹ cay máº¡nh.
+
+**CÃ´ng dá»¥ng:** Gia vá»‹, bá»™t á»›t, sá»‘t cay
+
+## á»št Cay (50,000-100,000 SHU)
+
+### á»št Hiá»ƒm / Bird's Eye (50,000-100,000 SHU)
+Loáº¡i á»›t nhá» nhÆ°ng cá»±c ká»³ cay, phá»• biáº¿n á»Ÿ ÄÃ´ng Nam Ã. Vá»‹ cay nhanh vÃ  máº¡nh.
+
+**Äáº·c Ä‘iá»ƒm:**
+- KÃ­ch thÆ°á»›c nhá» (2-3cm)
+- MÃ u xanh, vÃ ng, cam, Ä‘á»
+- Cay tá»« Ä‘áº§u lÆ°á»¡i Ä‘áº¿n há»ng
+
+**CÃ´ng dá»¥ng:** áº¨m thá»±c ThÃ¡i, Viá»‡t, Malaysia, Indonesia
+
+### Thai Pepper (50,000-100,000 SHU)
+TÆ°Æ¡ng tá»± á»›t hiá»ƒm, vá»‹ hÆ¡i ngá»t trÃ¡i cÃ¢y, cá»±c ká»³ cay.
+
+**CÃ´ng dá»¥ng:** CÃ  ri, tom yum, cÃ¡c mÃ³n xÃ o
+
+## á»št Ráº¥t Cay (100,000-500,000 SHU)
+
+### Habanero (100,000-350,000 SHU)
+Má»™t trong nhá»¯ng á»›t cay nháº¥t phá»• biáº¿n, cÃ³ hÆ°Æ¡ng vá»‹ trÃ¡i cÃ¢y nhiá»‡t Ä‘á»›i nhÆ° Ä‘u Ä‘á»§, dá»«a. MÃ u cam, Ä‘á», vÃ ng, nÃ¢u.
+
+**Äáº·c Ä‘iá»ƒm:**
+- HÃ¬nh Ä‘Ã¨n lá»“ng Ä‘á»™c Ä‘Ã¡o
+- MÃ¹i thÆ¡m Ä‘áº·c trÆ°ng
+- Vá»‹ ngá»t trÆ°á»›c khi cay
+
+**CÃ´ng dá»¥ng:** Sá»‘t cay Caribbean, jerk sauce
+
+### Scotch Bonnet (100,000-350,000 SHU)
+Giá»‘ng Habanero, hÃ¬nh dáº¡ng giá»‘ng chiáº¿c mÅ© Tam o' shanter cá»§a Scotland. Phá»• biáº¿n á»Ÿ vÃ¹ng Caribbean.
+
+**CÃ´ng dá»¥ng:** Jerk chicken, sá»‘t cay Jamaica
+
+## SiÃªu á»št (500,000+ SHU)
+
+### Ghost Pepper / Bhut Jolokia (850,000-1,463,000 SHU)
+á»št ma tá»« ÄÃ´ng Báº¯c áº¤n Äá»™, tá»«ng giá»¯ ká»· lá»¥c á»›t cay nháº¥t tháº¿ giá»›i (2007-2011). Vá»‹ cay kÃ©o dÃ i, hÆ°Æ¡ng khÃ³i.
+
+**Cáº£nh bÃ¡o:** Cá»±c ká»³ cay! Chá»‰ dÃ¹ng má»™t lÆ°á»£ng ráº¥t nhá»
+
+### Carolina Reaper (1,400,000-2,200,000 SHU)
+Giá»¯ ká»· lá»¥c á»›t cay nháº¥t tá»« 2013-2023. Lai táº¡o giá»¯a Ghost Pepper vÃ  Red Habanero.
+
+**Äáº·c Ä‘iá»ƒm:**
+- ÄuÃ´i hÃ¬nh mÃ³c Ä‘áº·c trÆ°ng
+- MÃ u Ä‘á» tÆ°Æ¡i
+- Vá»‹ trÃ¡i cÃ¢y trÆ°á»›c khi cay khá»§ng khiáº¿p
+
+### Pepper X (2,693,000+ SHU)
+Ká»· lá»¥c á»›t cay nháº¥t tháº¿ giá»›i hiá»‡n táº¡i (2023). Äá»‰nh cao cÃ³ thá»ƒ vÆ°á»£t 3 triá»‡u SHU!
+
+## Lá»£i Ãch Sá»©c Khá»e Tá»« CÃ¡c Loáº¡i á»št
+
+**Vitamin vÃ  KhoÃ¡ng Cháº¥t:**
+- Vitamin C: Cao hÆ¡n cam quÃ½t
+- Vitamin A: Tá»« beta-carotene
+- Vitamin E, K
+- Kali, sáº¯t
+
+**Capsaicin:**
+- Giáº£m Ä‘au
+- TÄƒng trao Ä‘á»•i cháº¥t
+- Chá»‘ng viÃªm
+- KhÃ¡ng khuáº©n
+
+## Lá»i KhuyÃªn Khi Sá»­ Dá»¥ng
+
+âœ… **Báº¯t Ä‘áº§u tá»« nháº¹ Ä‘áº¿n cay** náº¿u chÆ°a quen
+âœ… **Loáº¡i bá» háº¡t vÃ  mÃ ng** Ä‘á»ƒ giáº£m Ä‘á»™ cay
+âœ… **Äeo gÄƒng tay** khi xá»­ lÃ½ á»›t cá»±c cay
+âœ… **DÃ¹ng sá»¯a** Ä‘á»ƒ giáº£m cay, khÃ´ng pháº£i nÆ°á»›c
+
+âŒ **KhÃ´ng cháº¡m tay vÃ o máº¯t** sau khi cáº¯t á»›t
+âŒ **KhÃ´ng Äƒn á»›t cá»±c cay khi bá»¥ng rá»—ng**
+
+## TÆ°Æ¡ng á»št BÃ´ng á»št
+
+TÆ°Æ¡ng á»›t BÃ´ng á»št Ä‘Æ°á»£c lÃ m tá»« á»›t tÆ°Æ¡i Viá»‡t Nam, 100% tá»± nhiÃªn, khÃ´ng cháº¥t báº£o quáº£n. Äá»™ cay vá»«a pháº£i, phÃ¹ há»£p kháº©u vá»‹ ngÆ°á»i Viá»‡t, giá»¯ nguyÃªn hÆ°Æ¡ng vá»‹ vÃ  dinh dÆ°á»¡ng.
+
+**LiÃªn há»‡:** Zalo 0982 722 036
+        `,
+        date: '06/02/2026',
+        category: 'Kiáº¿n Thá»©c',
+        image: '/images/chili-ingredients.png',
+        icon: Globe,
+        readTime: '8 phÃºt'
+    },
+    {
+        id: '2',
+        title: 'Pepper X - á»št Cay Nháº¥t Tháº¿ Giá»›i',
+        excerpt: 'Tá»« Carolina Reaper Ä‘áº¿n Pepper X - hÃ nh trÃ¬nh chinh phá»¥c Ä‘á»‰nh cao cay. TÃ¬m hiá»ƒu vá» nhá»¯ng siÃªu á»›t phÃ¡ vá»¡ má»i giá»›i háº¡n vá»›i hÆ¡n 3 triá»‡u Ä‘Æ¡n vá»‹ Scoville.',
+        content: `
+## Lá»‹ch Sá»­ Nhá»¯ng á»št Cay Nháº¥t
+
+Cuá»™c Ä‘ua tÃ¬m kiáº¿m á»›t cay nháº¥t tháº¿ giá»›i Ä‘Ã£ kÃ©o dÃ i hÃ ng tháº­p ká»·, vá»›i nhá»¯ng ká»· lá»¥c liÃªn tá»¥c bá»‹ phÃ¡ vá»¡.
+
+### Timeline Ká»· Lá»¥c
+
+**2000-2006: Naga Jolokia / Ghost Pepper**
+- **Má»©c Ä‘á»™:** 850,000-1,463,000 SHU
+- **Xuáº¥t xá»©:** ÄÃ´ng Báº¯c áº¤n Äá»™
+- á»št Ä‘áº§u tiÃªn vÆ°á»£t ngÆ°á»¡ng 1 triá»‡u SHU
+- TÃªn "Bhut Jolokia" nghÄ©a lÃ  "á»›t ma"
+- ÄÆ°á»£c quÃ¢n Ä‘á»™i áº¤n Äá»™ dÃ¹ng lÃ m lá»±u Ä‘áº¡n hÆ¡i cay
+
+**2011-2012: Trinidad Scorpion Butch T**
+- **Má»©c Ä‘á»™:** 1,463,700 SHU
+- **Xuáº¥t xá»©:** Trinidad vÃ  Tobago
+- HÃ¬nh dáº¡ng nhÆ° Ä‘uÃ´i bá» cáº¡p
+- Vá»‹ ngá»t trÃ¡i cÃ¢y trÆ°á»›c khi cay khá»§ng khiáº¿p
+
+**2012-2013: Trinidad Moruga Scorpion**
+- **Má»©c Ä‘á»™:** LÃªn Ä‘áº¿n 2,000,000 SHU
+- á»št Ä‘áº§u tiÃªn vÆ°á»£t 2 triá»‡u SHU
+- Cay Ä‘áº¿n má»©c gÃ¢y tÃª lÆ°á»¡i
+
+**2013-2023: Carolina Reaper**
+- **Má»©c Ä‘á»™:** Trung bÃ¬nh 1,641,183 SHU, Ä‘á»‰nh cao 2,200,000 SHU
+- **Giá»¯ ká»· lá»¥c:** 10 nÄƒm liÃªn tiáº¿p!
+- **NgÆ°á»i táº¡o ra:** Ed Currie, PuckerButt Pepper Company
+
+## Carolina Reaper - Vua á»št Trong Má»™t Tháº­p Ká»·
+
+### Äáº·c Äiá»ƒm Nháº­n Dáº¡ng
+
+**HÃ¬nh dáº¡ng Ä‘á»™c Ä‘Ã¡o:**
+- ÄuÃ´i nhá» hÃ¬nh mÃ³c Ä‘áº·c trÆ°ng (nhÆ° lÆ°á»¡i liá»m tháº§n cháº¿t)
+- Bá» máº·t gá»“ ghá», nhÄƒn nheo
+- KÃ­ch thÆ°á»›c: 5-7cm
+- MÃ u Ä‘á» tÆ°Æ¡i khi chÃ­n
+
+**HÆ°Æ¡ng vá»‹:**
+- **Giai Ä‘oáº¡n 1 (5-10 giÃ¢y Ä‘áº§u):** Ngá»t, hÆ°Æ¡ng trÃ¡i cÃ¢y
+- **Giai Ä‘oáº¡n 2 (10-30 giÃ¢y):** Cay báº¯t Ä‘áº§u tÄƒng nhanh
+- **Giai Ä‘oáº¡n 3 (30 giÃ¢y+):** Cay cá»±c Ä‘á»™, kÃ©o dÃ i 15-30 phÃºt
+
+### Táº¡i Sao NÃ³ Cay Äáº¿n Váº­y?
+
+Carolina Reaper lÃ  káº¿t quáº£ lai táº¡o giá»¯a:
+- **Ghost Pepper (Bhut Jolokia):** Äá»™ cay truyá»n thá»‘ng
+- **Red Habanero:** HÆ°Æ¡ng vá»‹ trÃ¡i cÃ¢y
+
+Ed Currie Ä‘Ã£ máº¥t hÆ¡n 10 nÄƒm Ä‘á»ƒ hoÃ n thiá»‡n giá»‘ng á»›t nÃ y, chá»n lá»c nhá»¯ng cÃ¢y cho quáº£ cay nháº¥t.
+
+### á»¨ng Dá»¥ng
+
+ðŸŒ¶ï¸ **Sá»‘t cay siÃªu cáº¥p**
+ðŸŒ¶ï¸ **Äá»“ Äƒn thÃ¡ch thá»©c** (challenge foods)
+ðŸŒ¶ï¸ **Y há»c:** NghiÃªn cá»©u capsaicin cho thuá»‘c giáº£m Ä‘au
+ðŸŒ¶ï¸ **Quá»‘c phÃ²ng:** HÆ¡i cay, Ä‘áº¡n cao su
+
+âš ï¸ **Cáº£nh bÃ¡o:** Chá»‰ nÃªn dÃ¹ng lÆ°á»£ng Ráº¤T NHá»Ž (Ä‘áº§u tÄƒm)!
+
+## Pepper X - Ká»· Lá»¥c Má»›i (2023-nay)
+
+### Con Sá»‘ Kinh HoÃ ng
+
+**Guinness World Records 2023:**
+- **Má»©c Ä‘á»™ chÃ­nh thá»©c:** 2,693,000 SHU
+- **Äá»‰nh cao:** HÆ¡n 3,000,000 SHU!
+- **Gáº¥p gáº§n 600 láº§n** JalapeÃ±o
+- **Cay hÆ¡n Carolina Reaper** khoáº£ng 50%
+
+### Ai Táº¡o Ra Pepper X?
+
+Má»™t láº§n ná»¯a, Ed Currie - "cha Ä‘áº»" cá»§a Carolina Reaper - Ä‘Ã£ phÃ¡ vá»¡ ká»· lá»¥c cá»§a chÃ­nh mÃ¬nh!
+
+**QuÃ¡ trÃ¬nh phÃ¡t triá»ƒn:**
+- Báº¯t Ä‘áº§u tá»« 2012 (cÃ¹ng thá»i Ä‘iá»ƒm vá»›i Reaper)
+- Giá»¯ bÃ­ máº­t trong hÆ¡n 10 nÄƒm
+- CÃ´ng bá»‘ chÃ­nh thá»©c thÃ¡ng 10/2023
+- Lai táº¡o tá»« nhiá»u giá»‘ng á»›t siÃªu cay
+
+### Äáº·c Äiá»ƒm
+
+**HÃ¬nh thÃ¡i:**
+- HÃ¬nh dáº¡ng gáº§n giá»‘ng Carolina Reaper
+- ÄuÃ´i dÃ i hÆ¡n, nhá»n hÆ¡n
+- MÃ u xanh lÃ¡ kho chÃ­n thÃ nh vÃ ng, sau Ä‘Ã³ Ä‘á»
+- Bá» máº·t nhÄƒn nhÃºm nghiÃªm trá»ng
+
+**Vá»‹:**
+- Ngá»t nháº¹ ban Ä‘áº§u (1-2 giÃ¢y)
+- Cay bÃ¹ng phÃ¡t cá»±c máº¡nh
+- KÃ©o dÃ i 30-45 phÃºt
+- Háº­u vá»‹ cay nÃ³ng Ä‘áº¿n táº­n dáº¡ dÃ y
+
+### Má»©c Äá»™ Nguy Hiá»ƒm
+
+âš ï¸âš ï¸âš ï¸ **NGUY HIá»‚M Cá»°C CAO** âš ï¸âš ï¸âš ï¸
+
+**Triá»‡u chá»©ng khi Äƒn:**
+- Äá»• má»“ hÃ´i dá»¯ dá»™i
+- NÃ´n má»­a
+- TÃª liá»‡t táº¡m thá»i vÃ¹ng miá»‡ng
+- Äau bá»¥ng
+- Tim Ä‘áº­p nhanh
+- ChÃ³ng máº·t
+
+**Khuyáº¿n cÃ¡o:**
+- âŒ KHÃ”NG Äƒn cáº£ quáº£
+- âŒ KHÃ”NG Äƒn khi bá»¥ng rá»—ng
+- âŒ KHÃ”NG cho tráº» em, ngÆ°á»i giÃ 
+- âœ… Chá»‰ dÃ¹ng lÆ°á»£ng tÃ­ xÃ­u trong náº¥u Äƒn
+- âœ… Äeo gÄƒng tay khi xá»­ lÃ½
+- âœ… Chuáº©n bá»‹ sá»¯a, kem Ä‘á»ƒ cáº¥p cá»©u
+
+## So SÃ¡nh CÃ¡c SiÃªu á»št
+
+| Loáº¡i á»št | SHU | Äáº·c Äiá»ƒm |
+|----------|-----|----------|
+| JalapeÃ±o | 2,500-8,000 | Chuáº©n má»±c cay phá»• thÃ´ng |
+| Cayenne | 30,000-50,000 | Cay trung bÃ¬nh |
+| Habanero | 100,000-350,000 | Cay + hÆ°Æ¡ng trÃ¡i cÃ¢y |
+| Ghost Pepper | 850,000-1,463,000 | SiÃªu cay lá»‹ch sá»­ |
+| Carolina Reaper | 1,641,183 AVG | Vua á»›t 10 nÄƒm |
+| **Pepper X** | **2,693,000+** | **NhÃ  vua hiá»‡n táº¡i** |
+
+## Capsaicin á»ž Má»©c Cá»±c Äáº¡i
+
+á»ž má»©c 3 triá»‡u SHU, hÃ m lÆ°á»£ng capsaicin trong Pepper X Ä‘Ã£ gáº§n Ä‘áº¡t giá»›i háº¡n sinh há»c cá»§a cÃ¢y á»›t.
+
+**Capsaicin nguyÃªn cháº¥t:** 16,000,000 SHU
+
+Pepper X Ä‘áº¡t gáº§n **20% ná»“ng Ä‘á»™ capsaicin tá»‘i Ä‘a** cÃ³ thá»ƒ!
+
+## CÃ³ á»št NÃ o Cay HÆ¡n KhÃ´ng?
+
+Hiá»‡n táº¡i, Ed Currie tiáº¿t lá»™ há» Ä‘ang phÃ¡t triá»ƒn:
+- **Pepper Y**
+- **Pepper Z**
+
+NhÆ°ng chÆ°a cÃ´ng bá»‘ má»©c Ä‘á»™ cay. Giá»›i háº¡n sinh há»c cá»§a á»›t váº«n chÆ°a Ä‘Æ°á»£c biáº¿t chÃ­nh xÃ¡c!
+
+## Táº¡i Sao NgÆ°á»i Ta Ä‚n á»št Cá»±c Cay?
+
+**1. Adrenaline Rush**
+CÆ¡ thá»ƒ giáº£i phÃ³ng endorphin Ä‘á»ƒ chá»‘ng Ä‘au â†’ cáº£m giÃ¡c "phÃª"
+
+**2. Thá»­ ThÃ¡ch Báº£n ThÃ¢n**
+YouTube challenges, eating contests
+
+**3. NghiÃªn Cá»©u Khoa Há»c**
+Capsaicin cÃ³ tiá»m nÄƒng y há»c lá»›n
+
+**4. Äam MÃª áº¨m Thá»±c**
+TÃ¬m kiáº¿m giá»›i háº¡n vá»‹ giÃ¡c
+
+## Lá»i KhuyÃªn An ToÃ n
+
+### Náº¿u Ä‚n Nháº§m á»št QuÃ¡ Cay:
+
+âœ… **DÃ™NG:**
+- Sá»¯a, kem, sá»¯a chua (casein trung hÃ²a capsaicin)
+- BÃ¡nh mÃ¬, cÆ¡m (háº¥p thá»¥ capsaicin)
+- ÄÆ°á»ng, máº­t ong
+- Kem Ä‘Ã¡nh rÄƒng báº¡c hÃ  (giáº£m nÃ³ng)
+
+âŒ **TRÃNH:**
+- NÆ°á»›c lÃ£ (lÃ m tá»‡ hÆ¡n)
+- Bia, rÆ°á»£u (hÃ²a tan capsaicin rá»™ng hÆ¡n)
+- NÆ°á»›c ngá»t cÃ³ ga
+
+## á»št Viá»‡t Nam Vs SiÃªu á»št
+
+á»št Viá»‡t Nam (á»›t hiá»ƒm, á»›t chá»‰ thiÃªn) cay khoáº£ng 50,000-250,000 SHU - Ä‘á»§ cay cho kháº©u vá»‹ vÃ  ráº¥t tá»‘t Â¿ khá»e.
+
+**Pepper X cay hÆ¡n 12-60 láº§n!**
+
+## Káº¿t Luáº­n
+
+Pepper X hiá»‡n lÃ  á»›t cay nháº¥t cÃ³ thá»ƒ tÃ¬m tháº¥y trÃªn TrÃ¡i Äáº¥t. NhÆ°ng cuá»™c Ä‘ua váº«n tiáº¿p tá»¥c!
+
+**TÆ°Æ¡ng á»št BÃ´ng á»št** sá»­ dá»¥ng á»›t Viá»‡t Nam truyá»n thá»‘ng - Ä‘á»™ cay hoÃ n háº£o cho sá»©c khá»e vÃ  kháº©u vá»‹, khÃ´ng cáº§n Ä‘áº¿n má»©c "siÃªu cay" nguy hiá»ƒm.
+
+**LiÃªn há»‡ Ä‘áº·t hÃ ng:** Zalo 0982 722 036
+        `,
+        date: '07/02/2026',
+        category: 'KhÃ¡m PhÃ¡',
+        image: '/images/chili-hero.png',
+        icon: Trophy,
+        readTime: '10 phÃºt'
+    },
+    {
+        id: '3',
+        title: 'á»št Viá»‡t Nam - HÆ°Æ¡ng Vá»‹ Äáº·c TrÆ°ng',
+        excerpt: 'Tá»« á»›t hiá»ƒm cay ná»“ng Ä‘áº¿n á»›t sá»«ng ngá»t dá»‹u - á»›t Viá»‡t Nam Ä‘a dáº¡ng vÃ  phong phÃº. KhÃ¡m phÃ¡ cÃ¡c giá»‘ng á»›t Ä‘áº·c trÆ°ng vÃ  giÃ¡ trá»‹ dinh dÆ°á»¡ng cá»§a á»›t quÃª hÆ°Æ¡ng.',
+        content: `
+## VÃ¹ng Trá»“ng á»št Ná»•i Tiáº¿ng Viá»‡t Nam
+
+Viá»‡t Nam cÃ³ khÃ­ háº­u nhiá»‡t Ä‘á»›i giÃ³ mÃ¹a lÃ½ tÆ°á»Ÿng cho trá»“ng á»›t. Má»™t sá»‘ vÃ¹ng trá»“ng á»›t ná»•i tiáº¿ng:
+
+ðŸŒ¶ï¸ **TÃ¢y NguyÃªn** (Äáº¯k Láº¯k, Gia Lai): á»št há»“ng, á»›t giÃ³
+ðŸŒ¶ï¸ **HÃ  Giang**: á»št giÃ³ HÃ  Giang - Ä‘áº·c sáº£n
+ðŸŒ¶ï¸ **Báº¯c Giang**: á»št chá»‰ thiÃªn
+ðŸŒ¶ï¸ **Ninh BÃ¬nh, Nam Äá»‹nh**: á»št sá»«ng, á»›t chuÃ´ng
+ðŸŒ¶ï¸ **Äá»“ng báº±ng sÃ´ng Cá»­u Long**: á»št hiá»ƒm
+
+## CÃ¡c Loáº¡i á»št Viá»‡t Nam Phá»• Biáº¿n
+
+### 1. á»št Hiá»ƒm (á»št Máº¯t Chim, á»št ThÃ³c)
+
+**Äáº·c Ä‘iá»ƒm:**
+- KÃ­ch thÆ°á»›c nhá» nháº¯n (2-3cm)
+- HÃ¬nh dÃ¡ng nhá»n, thon
+- MÃ u xanh â†’ vÃ ng/cam â†’ Ä‘á» khi chÃ­n
+- **Äá»™ cay:** 100,000-225,000 SHU (ráº¥t cay!)
+
+**TÃªn gá»i:**
+"á»št hiá»ƒm" vÃ¬ nhá» nhÆ°ng cá»±c ká»³ cay, "Äƒn má»™t cÃ¡i lÃ  hiá»ƒm ngay"
+"á»št máº¯t chim" vÃ¬ nhá» nhÆ° máº¯t chim
+"á»št thÃ³c" vÃ¬ nhá» nhÆ° háº¡t thÃ³c
+
+**Äáº·c tÃ­nh vá»‹:**
+- Cay nhanh, máº¡nh ngay tá»« Ä‘áº§u
+- Cay tá»« lÆ°á»¡i, lan há»ng, xuá»‘ng dáº¡ dÃ y
+- KÃ©o dÃ i 10-15 phÃºt
+- HÆ°Æ¡ng thÆ¡m Ä‘áº·c trÆ°ng
+
+**CÃ´ng dá»¥ng:**
+- Gia vá»‹ phá»Ÿ, bÃºn, miáº¿n
+- NÆ°á»›c máº¯m á»›t
+- Dáº§u á»›t
+- Muá»‘i á»›t
+- á»št sa táº¿
+
+**GiÃ¡ trá»‹ dinh dÆ°á»¡ng:**
+- Vitamin C cá»±c cao
+- Capsaicin máº¡nh máº½
+- Beta-carotene
+- Cháº¥t xÆ¡
+
+### 2. á»št Chá»‰ ThiÃªn
+
+**Äáº·c Ä‘iá»ƒm:**
+- KÃ­ch thÆ°á»›c trung bÃ¬nh (5-8cm)
+- Má»c ngÆ°á»£c hÆ°á»›ng lÃªn trá»i â†’ tÃªn "chá»‰ thiÃªn"
+- MÃ u xanh â†’ Ä‘á»
+- **Äá»™ cay:** 100,000-250,000 SHU
+
+**Äáº·c tÃ­nh:**
+- Cay vá»«a pháº£i hÆ¡n á»›t hiá»ƒm
+- Thá»‹t má»ng, giÃ²n
+- HÆ°Æ¡ng thÆ¡m dá»… chá»‹u
+- Dá»… trá»“ng, nÄƒng suáº¥t cao
+
+**CÃ´ng dá»¥ng:**
+- á»št tÆ°Æ¡i ngÃ¢m dáº¥m
+- á»št muá»‘i
+- TÆ°Æ¡ng á»›t
+- á»št bá»™t
+- Náº¥u Äƒn hÃ ng ngÃ y
+
+**VÃ¹ng trá»“ng ná»•i tiáº¿ng:**
+- Báº¯c Giang
+- Háº£i DÆ°Æ¡ng
+- PhÃº Thá»
+
+### 3. á»št Sá»«ng (á»št Sá»«ng TrÃ¢u)
+
+**Äáº·c Ä‘iá»ƒm:**
+- KÃ­ch thÆ°á»›c lá»›n (10-15cm)
+- HÃ¬nh dÃ¡ng dÃ i, cong nhÆ° sá»«ng trÃ¢u
+- MÃ u xanh â†’ Ä‘á»
+- **Äá»™ cay:** 5,000-30,000 SHU (nháº¹ Ä‘áº¿n trung bÃ¬nh)
+
+**Äáº·c tÃ­nh vá»‹:**
+- Nháº¹ cay hoáº·c gáº§n khÃ´ng cay
+- Ngá»t tá»± nhiÃªn
+- Thá»‹t dÃ y, má»ng nÆ°á»›c
+- GiÃ²n khi tÆ°Æ¡i
+
+**CÃ´ng dá»¥ng:**
+- Rau sá»‘ng Äƒn kÃ¨m
+- MÃ³n xÃ o
+- Nhá»“i thá»‹t
+- NÆ°á»›ng
+- Salad
+
+**GiÃ¡ trá»‹ dinh dÆ°á»¡ng:**
+- Vitamin C ráº¥t cao
+- Vitamin A
+- Cháº¥t bÃ©o tháº¥p
+- Ãt calo
+
+### 4. á»št ChuÃ´ng (Bell Pepper)
+
+**Äáº·c Ä‘iá»ƒm:**
+- KÃ­ch thÆ°á»›c lá»›n, trÃ²n
+- CÃ³ 4 mÃºi
+- Nhiá»u mÃ u: xanh, Ä‘á», vÃ ng, cam
+- **Äá»™ cay:** 0 SHU (khÃ´ng cay!)
+
+**Äáº·c tÃ­nh:**
+- Ngá»t, giÃ²n
+- KhÃ´ng capsaicin
+- Thá»‹t dÃ y nháº¥t
+- Má»ng nÆ°á»›c
+
+**CÃ´ng dá»¥ng:**
+- Salad
+- XÃ o
+- NÆ°á»›ng
+- Nhá»“i
+- MÃ³n Ã‚u
+
+### 5. á»št GiÃ³ HÃ  Giang
+
+**Äáº·c Ä‘iá»ƒm:**
+- Äáº·c sáº£n vÃ¹ng cao
+- KÃ­ch thÆ°á»›c nhá» (3-5cm)
+- Cay nháº¹
+- **HÆ°Æ¡ng thÆ¡m Ä‘áº·c trÆ°ng** ráº¥t máº¡nh
+
+**Äáº·c tÃ­nh:**
+- ThÆ¡m hÆ¡n cay
+- Vá»‹ ngá»t tá»± nhiÃªn
+- Háº­u vá»‹ dÃ i
+- GiÃ¡ trá»‹ cao
+
+**Thá»i vá»¥:**
+- Chá»‰ cÃ³ mÃ¹a giÃ³ (thÃ¡ng 9-11)
+- Khan hiáº¿m â†’ giÃ¡ cao
+
+**CÃ´ng dá»¥ng:**
+- Muá»‘i á»›t
+- Ä‚n tÆ°Æ¡i
+- Gia vá»‹ cao cáº¥p
+
+### 6. á»št BÃºng
+
+**Äáº·c Ä‘iá»ƒm:**
+- HÃ¬nh trÃ²n nhá»
+- Cá»±c ká»³ cay
+- Hiáº¿m gáº·p
+
+### 7. á»št XiÃªm
+
+**Äáº·c Ä‘iá»ƒm:**
+- Lai tá»« á»›t ThÃ¡i Lan
+- Cay máº¡nh
+- Phá»• biáº¿n miá»n Nam
+
+## So SÃ¡nh CÃ¡c Loáº¡i á»št Viá»‡t Nam
+
+| Loáº¡i | Äá»™ Cay (SHU) | KÃ­ch ThÆ°á»›c | Äáº·c Äiá»ƒm |
+|------|--------------|------------|----------|
+| á»št Hiá»ƒm | 100,000-225,000 | Ráº¥t nhá» | Cá»±c cay |
+| á»št Chá»‰ ThiÃªn | 100,000-250,000 | Trung bÃ¬nh | Ráº¥t cay |
+| á»št GiÃ³ HG | 10,000-30,000 | Nhá» | ThÆ¡m Ä‘áº·c biá»‡t |
+| á»št Sá»«ng | 5,000-30,000 | Lá»›n | Nháº¹-trung bÃ¬nh |
+| á»št ChuÃ´ng | 0 | Ráº¥t lá»›n | KhÃ´ng cay |
+
+## GiÃ¡ Trá»‹ Dinh DÆ°á»¡ng á»št Viá»‡t Nam
+
+### Vitamin vÃ  KhoÃ¡ng Cháº¥t
+
+**Vitamin C:**
+- 1 quáº£ á»›t hiá»ƒm: 60-80mg vitamin C
+- 1 quáº£ á»›t sá»«ng: 100-150mg
+- 1 quáº£ á»›t chuÃ´ng Ä‘á»: 150-200mg
+- **So sÃ¡nh:** 1 quáº£ cam chá»‰ 70mg!
+
+**Vitamin A (Beta-carotene):**
+- á»št Ä‘á» chÃ­n > á»›t xanh
+- Tá»‘t cho máº¯t, da
+
+**KhÃ¡c:**
+- Vitamin E, K
+- Kali
+- Sáº¯t
+- MagiÃª
+
+### Capsaicin - Hoáº¡t Cháº¥t VÃ ng
+
+**Lá»£i Ã­ch:**
+
+âœ… **Giáº£m Ä‘au tá»± nhiÃªn**
+- KÃ­ch thÃ­ch giáº£i phÃ³ng endorphin
+- LÃ m giáº£m cháº¥t P (dáº«n truyá»n Ä‘au)
+
+âœ… **TÄƒng cÆ°á»ng trao Ä‘á»•i cháº¥t**
+- Äá»‘t chÃ¡y 50-100 calo thÃªm/ngÃ y
+- Há»— trá»£ giáº£m cÃ¢n
+
+âœ… **Tá»‘t cho tim máº¡ch**
+- Giáº£m cholesterol xáº¥u
+- NgÄƒn cá»¥c mÃ¡u Ä‘Ã´ng
+- Cáº£i thiá»‡n tuáº§n hoÃ n
+
+âœ… **Chá»‘ng viÃªm**
+- Giáº£m viÃªm khá»›p
+- Há»— trá»£ tiÃªu hÃ³a
+
+âœ… **KhÃ¡ng khuáº©n**
+- TiÃªu diá»‡t vi khuáº©n H.pylori
+- PhÃ²ng ngá»«a nhiá»…m trÃ¹ng
+
+## MÃ³n Ä‚n Äáº·c TrÆ°ng Vá»›i á»št Viá»‡t Nam
+
+### NÆ°á»›c Máº¯m á»št Hiá»ƒm
+**NguyÃªn liá»‡u:**
+- 5-7 quáº£ á»›t hiá»ƒm
+- 3 tÃ©p tá»i
+- 1 thÃ¬a Ä‘Æ°á»ng
+- 3 thÃ¬a nÆ°á»›c máº¯m
+- 2 thÃ¬a nÆ°á»›c cá»‘t chanh
+- 1/2 chÃ©n nÆ°á»›c
+
+### Muá»‘i á»št
+**NguyÃªn liá»‡u:**
+- á»št tÆ°Æ¡i (hiá»ƒm hoáº·c chá»‰ thiÃªn)
+- Muá»‘i háº¡t
+- Tá»i
+- RÆ°á»£u tráº¯ng (tÃ¹y chá»n)
+
+### TÆ°Æ¡ng á»št Truyá»n Thá»‘ng
+**NguyÃªn liá»‡u:**
+- á»št tÆ°Æ¡i
+- Tá»i (hoáº·c khÃ´ng)
+- ÄÆ°á»ng
+- Muá»‘i
+- Giáº¥m (tÃ¹y chá»n)
+
+## CÃ¡ch Báº£o Quáº£n á»št
+
+### á»št TÆ°Æ¡i:
+- Äá»ƒ ngÄƒn mÃ¡t tá»§ láº¡nh: 1-2 tuáº§n  
+- KhÃ´ng rá»­a trÆ°á»›c khi cáº¥t
+- Cho vÃ o tÃºi ni lÃ´ng cÃ³ lá»— thÃ´ng khÃ­
+
+### á»št KhÃ´:
+- PhÆ¡i náº¯ng hoáº·c mÃ¡y sáº¥y
+- Báº£o quáº£n nÆ¡i khÃ´ rÃ¡o
+- Giá»¯ Ä‘Æ°á»£c 6-12 thÃ¡ng
+
+### á»št NgÃ¢m:
+- NgÃ¢m trong dáº§u, dáº¥m, hoáº·c muá»‘i
+- Giá»¯ Ä‘Æ°á»£c 3-6 thÃ¡ng
+
+### ÄÃ´ng Láº¡nh:
+- Rá»­a sáº¡ch, Ä‘á»ƒ rÃ¡o
+- Cho vÃ o tÃºi zip
+- Giá»¯ Ä‘Æ°á»£c 10-12 thÃ¡ng
+
+## Trá»“ng á»št Táº¡i NhÃ 
+
+### Æ¯u Äiá»ƒm:
+- Dá»… trá»“ng
+- Cho quáº£ nhiá»u
+- TÆ°Æ¡i, sáº¡ch, an toÃ n
+
+### HÆ°á»›ng Dáº«n CÆ¡ Báº£n:
+
+**1. Chá»n giá»‘ng:**
+- á»št chá»‰ thiÃªn: dá»… nháº¥t
+- á»št hiá»ƒm: vá»«a pháº£i
+- á»št sá»«ng: cáº§n chá»— rá»™ng
+
+**2. Trá»“ng:**
+- Cháº­u to (3-5 lÃ­t)
+- Äáº¥t phÃ¹ sa hoáº·c Ä‘áº¥t trá»™n
+- ThoÃ¡t nÆ°á»›c tá»‘t
+
+**3. ChÄƒm sÃ³c:**
+- TÆ°á»›i: 1-2 láº§n/ngÃ y
+- PhÆ¡i náº¯ng: 6-8 giá»/ngÃ y
+- BÃ³n phÃ¢n: 2 tuáº§n/láº§n
+
+**4. Thu hoáº¡ch:**
+- Sau 60-90 ngÃ y
+- HÃ¡i khi chÃ­n Ä‘á» (cay nháº¥t)
+
+## á»št Trong VÄƒn HÃ³a Viá»‡t Nam
+
+### Tá»¥c Ngá»¯:
+
+"CÃ³ á»›t, cÃ³ muá»‘i má»›i ra mÃ³n"
+"Ä‚n no má»›i xÃ©t Ä‘áº¿n cay"
+"Nháº¡t máº·n theo Ã½, Ä‘áº­m nháº¡t tÃ¹y ngÆ°á»i"
+
+### Ã NghÄ©a:
+
+ðŸŒ¶ï¸ **Sá»± chá»‹u Ä‘á»±ng, bá»n bá»‰**
+ðŸŒ¶ï¸ **HÆ°Æ¡ng vá»‹ Ä‘áº­m Ä‘Ã  cá»§a cuá»™c sá»‘ng**
+ðŸŒ¶ï¸ **ThÃªm vá»‹ cho bá»¯a cÆ¡m** (váº­t cháº¥t + tinh tháº§n)
+
+## TÆ°Æ¡ng á»št BÃ´ng á»št - Tinh Hoa á»št Viá»‡t
+
+**Äáº·c biá»‡t:**
+- Sá»­ dá»¥ng á»›t Viá»‡t Nam cháº¥t lÆ°á»£ng cao
+- KhÃ´ng tá»i, khÃ´ng cÃ  chua
+- 100% tá»± nhiÃªn
+- KhÃ´ng cháº¥t báº£o quáº£n
+- Quy trÃ¬nh thá»§ cÃ´ng
+
+**Äá»™ cay:**
+Vá»«a pháº£i, phÃ¹ há»£p ngÆ°á»i Viá»‡t - khÃ´ng quÃ¡ cay nhÆ° á»›t hiá»ƒm nguyÃªn cháº¥t, nhÆ°ng Ä‘á»§ Ä‘á»ƒ cáº£m nháº­n hÆ°Æ¡ng vá»‹ Ä‘áº·c trÆ°ng.
+
+**LiÃªn há»‡ Ä‘áº·t hÃ ng:**
+ðŸ“± Zalo: 0982 722 036
+ðŸ“ Äá»‹a chá»‰: Sá»‘ 8, NgÃµ 135 NÃºi TrÃºc, Giáº£ng VÃµ, HÃ  Ná»™i
+
+**Cam káº¿t:**
+âœ… Nguá»“n gá»‘c rÃµ rÃ ng
+âœ… An toÃ n thá»±c pháº©m
+âœ… Há»— trá»£ nÃ´ng dÃ¢n Viá»‡t
+âœ… GiÃ¡ cáº£ há»£p lÃ½
+        `,
+        date: '08/02/2026',
+        category: 'Viá»‡t Nam',
+        image: '/images/chili-products.png',
+        icon: MapPin,
+        readTime: '12 phÃºt'
+    },
+    {
+        id: '4',
+        title: 'Top 10 Quá»‘c Gia Ä‚n á»št Nhiá»u Nháº¥t Tháº¿ Giá»›i',
+        excerpt: 'KhÃ¡m phÃ¡ nhá»¯ng quá»‘c gia yÃªu thÃ­ch á»›t nháº¥t hÃ nh tinh. Tá»« Thá»• NhÄ© Ká»³ vá»›i 33kg/ngÆ°á»i Ä‘áº¿n áº¤n Äá»™ - vÆ°Æ¡ng quá»‘c cá»§a á»›t cay vá»›i hÃ ng trÄƒm mÃ³n Äƒn.',
+        content: `
+## Con Sá»‘ áº¤n TÆ°á»£ng
+
+Má»—i nÄƒm, con ngÆ°á»i tiÃªu thá»¥ hÃ ng triá»‡u táº¥n á»›t trÃªn toÃ n tháº¿ giá»›i. NhÆ°ng quá»‘c gia nÃ o Äƒn nhiá»u nháº¥t? HÃ£y cÃ¹ng khÃ¡m phÃ¡!
+
+## Top 10 Quá»‘c Gia (2024)
+
+### 1. ðŸ‡¹ðŸ‡· Thá»• NhÄ© Ká»³ - 33kg/ngÆ°á»i/nÄƒm
+
+**Vá»‹ trÃ­:** NhÃ  vÃ´ Ä‘á»‹ch tháº¿ giá»›i!
+
+**Äáº·c Ä‘iá»ƒm:**
+- TiÃªu thá»¥ 33kg á»›t/ngÆ°á»i má»—i nÄƒm
+- Gáº¥p Ä‘Ã´i so vá»›i Mexico
+- á»št lÃ  gia vá»‹ khÃ´ng thá»ƒ thiáº¿u
+
+**MÃ³n Äƒn phá»• biáº¿n:**
+- **Biber DolmasÄ±:** á»št nhá»“i thá»‹t
+- **KÄ±rmÄ±zÄ± Biber:** Bá»™t á»›t Ä‘á»
+- **Pul Biber:** Bá»™t á»›t bá»™t
+- **AcÄ±lÄ± Ezme:** Sá»‘t á»›t cay
+- **Ä°sot Biber:** á»št Urfa Ä‘áº·c trÆ°ng
+
+**VÄƒn hÃ³a á»›t:**
+á»ž Thá»• NhÄ© Ká»³, á»›t khÃ´ng chá»‰ lÃ  gia vá»‹ mÃ  cÃ²n lÃ  biá»ƒu tÆ°á»£ng vÄƒn hÃ³a. Má»—i vÃ¹ng cÃ³ loáº¡i á»›t riÃªng, má»—i mÃ³n Äƒn cÃ³ cÃ¡ch dÃ¹ng á»›t khÃ¡c nhau.
+
+### 2. ðŸ‡ªðŸ‡¸ TÃ¢y Ban Nha - 17kg/ngÆ°á»i/nÄƒm
+
+**Vá»‹ trÃ­:** Ã quÃ¢n chÃ¢u Ã‚u
+
+**Äáº·c Ä‘iá»ƒm:**
+- TiÃªu thá»¥ 17kg/nÄƒm
+- Ná»•i tiáº¿ng vá»›i á»›t Piquillo, PadrÃ³n
+- á»št trong áº©m thá»±c Basque vÃ  Catalan
+
+**MÃ³n Äƒn:**
+- **Pimientos de PadrÃ³n:** á»št PadrÃ³n chiÃªn
+- **Patatas Bravas:** Khoai tÃ¢y sá»‘t á»›t
+- **Romesco:** Sá»‘t á»›t Ä‘á»
+- **Gazpacho:** SÃºp cÃ  chua á»›t láº¡nh
+
+### 3. ðŸ‡²ðŸ‡½ Mexico - 15kg/ngÆ°á»i/nÄƒm
+
+**Vá»‹ trÃ­:** QuÃª hÆ°Æ¡ng cá»§a á»›t
+
+**Äáº·c Ä‘iá»ƒm:**
+- 15kg/nÄƒm
+- CÃ³ hÆ¡n 100 loáº¡i á»›t khÃ¡c nhau
+- á»št lÃ  di sáº£n vÄƒn hÃ³a UNESCO
+
+**CÃ¡c loáº¡i á»›t ná»•i tiáº¿ng:**
+- JalapeÃ±o, Poblano, Serrano
+- Habanero, Chipotle, Ancho
+- Guajillo, Pasilla, Cascabel
+
+**MÃ³n Äƒn:**
+- **Mole:** Sá»‘t á»›t chocolate
+- **Salsa:** HÃ ng trÄƒm loáº¡i
+- **Enchiladas, Tacos, Tamales**
+- **Chiles en Nogada**
+
+### 4. ðŸ‡®ðŸ‡³ áº¤n Äá»™ - TiÃªu Thá»¥ Lá»›n Nháº¥t Tháº¿ Giá»›i
+
+**Vá»‹ trÃ­:** Sá»‘ 1 vá» tá»•ng lÆ°á»£ng
+
+**Äáº·c Ä‘iá»ƒm:**
+- TiÃªu thá»¥ nhiá»u nháº¥t (tá»•ng khá»‘i lÆ°á»£ng)
+- Sáº£n xuáº¥t 70% cho ná»™i Ä‘á»‹a
+- LÃ  quÃª hÆ°Æ¡ng cá»§a Ghost Pepper
+
+**VÃ¹ng trá»“ng:**
+- Andhra Pradesh
+- Karnataka
+- Maharashtra
+- Assam (Bhut Jolokia)
+
+**MÃ³n Äƒn:**
+- **Vindaloo:** CÃ  ri cá»±c cay
+- **Chettinad Curry:** á»št + gia vá»‹
+- **Mirchi Ka Salan:** CÃ  ri á»›t
+- **Pickles:** DÆ°a chua á»›t
+
+**VÄƒn hÃ³a:**
+á»žt trong Ayurveda Ä‘Æ°á»£c coi lÃ  "thá»±c pháº©m nÃ³ng", tá»‘t cho tiÃªu hÃ³a vÃ  tuáº§n hoÃ n.
+
+### 5. ðŸ‡¹ðŸ‡­ ThÃ¡i Lan
+
+**Äáº·c Ä‘iá»ƒm:**
+- Má»™t trong nhá»¯ng quá»‘c gia tiÃªu thá»¥ nhiá»u nháº¥t
+- á»št trong má»i bá»¯a Äƒn
+- VÄƒn hÃ³a "à¹€à¸œà¹‡à¸”" (phet - cay)
+
+**MÃ³n Äƒn:**
+- **Som Tam:** Gá»i Ä‘u Ä‘á»§ á»›t
+- **Tom Yum:** SÃºp á»›t
+- **Larb:** Salad á»›t
+- **Gaeng Pet:** CÃ  ri Ä‘á» cay
+
+### 6. ðŸ‡¨ðŸ‡³ Trung Quá»‘c
+
+**VÃ¹ng ná»•i tiáº¿ng:**
+- **Tá»© XuyÃªn (Sichuan):** Ma La (tÃª cay)
+- **Há»“ Nam (Hunan):** Cay ná»“ng
+- **QuÃ½ ChÃ¢u (Guizhou):** Cay chua
+
+**Äáº·c trÆ°ng:**
+- Sá»­ dá»¥ng á»›t káº¿t há»£p tiÃªu Tá»© XuyÃªn
+- Dáº§u á»›t, tÆ°Æ¡ng á»›t
+- Láº©u á»›t Tá»© XuyÃªn
+
+### 7. ðŸ‡®ðŸ‡© Indonesia
+
+**Äáº·c Ä‘iá»ƒm:**
+- Sambal - linh há»“n áº©m thá»±c
+- HÆ¡n 300 loáº¡i sambal
+- á»št rawit (Bird's Eye)
+
+**MÃ³n Äƒn:**
+- **Sambal Oelek, Terasi, Matah**
+- **Rendang:** Thá»‹t á»›t
+- **Ayam Taliwang:** GÃ  nÆ°á»›ng á»›t
+
+### 8. ðŸ‡°ðŸ‡· HÃ n Quá»‘c
+
+**Äáº·c Ä‘iá»ƒm:**
+- Gochugaru (bá»™t á»›t HÃ n)
+- Gochujang (tÆ°Æ¡ng á»›t)
+- á»št trong kimchi
+
+**MÃ³n Äƒn:**
+- **Kimchi Jjigae:** Canh kimchi
+- **Buldak:** GÃ  cay phe
+- **Tteokbokki:** BÃ¡nh gáº¡o cay
+
+### 9. ðŸ‡»ðŸ‡³ Viá»‡t Nam
+
+**Äáº·c Ä‘iá»ƒm:**
+- TÆ°Æ¡ng á»›t, dáº§u á»›t
+- á»št tÆ°Æ¡i Äƒn kÃ¨m
+- NÆ°á»›c máº¯m á»›t
+
+**TiÃªu thá»¥:**
+Khoáº£ng 1.7kg/ngÆ°á»i/nÄƒm (pepper nÃ³i chung theo sá»‘ liá»‡u 2018)
+
+**MÃ³n Äƒn:**
+- Phá»Ÿ, bÃºn bÃ², bÃºn riÃªu + á»›t
+- TÆ°Æ¡ng á»›t cháº¥m
+- á»št muá»‘i, á»›t tá»i
+
+### 10. ðŸ‡§ðŸ‡· Brazil
+
+**Äáº·c Ä‘iá»ƒm:**
+- Malagueta pepper
+- á»št trong Bahian cuisine
+- Molho de pimenta (sá»‘t á»›t)
+
+## So SÃ¡nh ThÃº Vá»‹
+
+| Quá»‘c Gia | kg/ngÆ°á»i/nÄƒm | Äáº·c TrÆ°ng |
+|----------|--------------|------------|
+| Thá»• NhÄ© Ká»³ | 33 | Nhiá»u nháº¥t tháº¿ giá»›i |
+| TÃ¢y Ban Nha | 17 | Äa dáº¡ng loáº¡i á»›t |
+| Mexico | 15 | QuÃª hÆ°Æ¡ng á»›t |
+| áº¤n Äá»™ | - | TiÃªu thá»¥ tá»•ng lá»›n nháº¥t |
+
+## Táº¡i Sao Há» Ä‚n Nhiá»u á»št?
+
+### 1. KhÃ­ Háº­u NÃ³ng
+- á»št kÃ­ch thÃ­ch Ä‘á»• má»“ hÃ´i
+- GiÃºp lÃ m mÃ¡t cÆ¡ thá»ƒ
+- Chá»‘ng vi khuáº©n trong thá»±c pháº©m
+
+### 2. VÄƒn HÃ³a
+- Truyá»n thá»‘ng hÃ ng ngÃ n nÄƒm
+- á»št = báº£n sáº¯c áº©m thá»±c
+- Di sáº£n vÄƒn hÃ³a
+
+### 3. Y Há»c Cá»• Truyá»n
+- Ayurveda (áº¤n Äá»™)
+- ÄÃ´ng y (Trung Quá»‘c)
+- GiÃºp tiÃªu hÃ³a, tuáº§n hoÃ n
+
+### 4. Báº£o Quáº£n Thá»±c Pháº©m
+- KhÃ¡ng khuáº©n tá»± nhiÃªn
+- KÃ©o dÃ i tuá»•i thá» thá»±c pháº©m
+- Pickle, muá»‘i chua
+
+## Lá»£i Ãch Khi Ä‚n á»št ThÆ°á»ng XuyÃªn
+
+âœ… **TÄƒng cÆ°á»ng miá»…n dá»‹ch**
+âœ… **Cáº£i thiá»‡n tim máº¡ch**
+âœ… **TÄƒng trao Ä‘á»•i cháº¥t**
+âœ… **Giáº£m nguy cÆ¡ ung thÆ°**
+âœ… **KÃ©o dÃ i tuá»•i thá»**
+
+NghiÃªn cá»©u cho tháº¥y ngÆ°á»i Äƒn á»›t thÆ°á»ng xuyÃªn cÃ³:
+- Giáº£m 14% nguy cÆ¡ tá»­ vong sá»›m
+- Giáº£m 40% nguy cÆ¡ Ä‘á»™t quá»µ
+- Tá»‘t cho Ä‘Æ°á»ng huyáº¿t
+
+## Viá»‡t Nam á»ž ÄÃ¢u?
+
+Tuy khÃ´ng náº±m trong top Ä‘áº§u vá» lÆ°á»£ng tiÃªu thá»¥, nhÆ°ng:
+
+ðŸ‡»ðŸ‡³ **Viá»‡t Nam cÃ³:**
+- VÄƒn hÃ³a á»›t Ä‘áº·c trÆ°ng
+- Nhiá»u loáº¡i á»›t báº£n Ä‘á»‹a
+- TÆ°Æ¡ng á»›t khÃ´ng cháº¥t báº£o quáº£n
+- CÃ¡ch cháº¿ biáº¿n Ä‘á»™c Ä‘Ã¡o
+
+## TÆ°Æ¡ng á»št BÃ´ng á»št - HÆ°Æ¡ng Vá»‹ Viá»‡t
+
+Giá»¯ gÃ¬n tinh hoa á»›t Viá»‡t:
+- 100% á»›t tÆ°Æ¡i Viá»‡t Nam
+- KhÃ´ng tá»i, khÃ´ng cÃ  chua
+- KhÃ´ng cháº¥t báº£o quáº£n
+- PhÃ¹ há»£p kháº©u vá»‹ ngÆ°á»i Viá»‡t
+
+**LiÃªn há»‡:** Zalo 0982 722 036
+        `,
+        date: '09/02/2026',
+        category: 'Tháº¿ Giá»›i',
+        image: '/images/chili-hero.png',
+        icon: Users,
+        readTime: '9 phÃºt'
+    },
+    {
+        id: '5',
+        title: 'Nhá»¯ng Loáº¡i á»št LÃ m TÆ°Æ¡ng Phá»• Biáº¿n Nháº¥t',
+        excerpt: 'Tá»« Cayenne kinh Ä‘iá»ƒn Ä‘áº¿n JalapeÃ±o tÆ°Æ¡i mÃ¡t - khÃ¡m phÃ¡ nhá»¯ng loáº¡i á»›t Ä‘Æ°á»£c sá»­ dá»¥ng nhiá»u nháº¥t trong sáº£n xuáº¥t tÆ°Æ¡ng á»›t vÃ  sá»‘t cay trÃªn toÃ n tháº¿ giá»›i.',
+        content: `
+## Táº¡i Sao Chá»n Loáº¡i á»št Quan Trá»ng?
+
+Má»—i loáº¡i á»›t mang láº¡i:
+- **Äá»™ cay** khÃ¡c nhau (SHU)
+- **HÆ°Æ¡ng vá»‹** Ä‘áº·c trÆ°ng
+- **MÃ u sáº¯c** thu hÃºt
+- **Káº¿t cáº¥u** phÃ¹ há»£p
+
+Viá»‡c chá»n Ä‘Ãºng loáº¡i á»›t quyáº¿t Ä‘á»‹nh Ä‘áº¿n cháº¥t lÆ°á»£ng tÆ°Æ¡ng á»›t!
+
+## Top 10 Loáº¡i á»št LÃ m TÆ°Æ¡ng Phá»• Biáº¿n
+
+### 1. Cayenne Pepper - Vua Cá»§a TÆ°Æ¡ng á»št
+
+**Äá»™ cay:** 25,000-50,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- á»št Ä‘á» dÃ i, thon
+- Thá»‹t má»ng, dá»… sáº¥y
+- MÃ u Ä‘á» tÆ°Æ¡i Ä‘áº¹p máº¯t
+- Vá»‹ cay vá»«a pháº£i
+
+**Táº¡i sao phá»• biáº¿n:**
+âœ… Dá»… trá»“ng, nÄƒng suáº¥t cao
+âœ… GiÃ¡ thÃ nh há»£p lÃ½
+âœ… MÃ u Ä‘á» Ä‘áº¹p, báº¯t máº¯t
+âœ… HÆ°Æ¡ng vá»‹ cÃ¢n báº±ng
+âœ… Dá»… xay thÃ nh bá»™t
+
+**Sáº£n pháº©m ná»•i tiáº¿ng:**
+- **Frank's RedHot** - TÆ°Æ¡ng á»›t kinh Ä‘iá»ƒn Má»¹
+- **Louisiana Hot Sauce** - Truyá»n thá»‘ng miá»n Nam
+- **Crystal Hot Sauce**
+- Háº§u háº¿t cÃ¡c loáº¡i "Red Hot Sauce"
+
+**CÃ´ng thá»©c cÆ¡ báº£n:**
+- Cayenne tÆ°Æ¡i hoáº·c khÃ´
+- Giáº¥m
+- Muá»‘i
+- Tá»i (tÃ¹y chá»n)
+
+### 2. JalapeÃ±o - TÆ°Æ¡i MÃ¡t VÃ  Phá»• Biáº¿n
+
+**Äá»™ cay:** 2,500-8,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- Thá»‹t dÃ y, má»ng nÆ°á»›c
+- MÃ u xanh hoáº·c Ä‘á»
+- Vá»‹ tÆ°Æ¡i, hÆ¡i ngá»t
+- Cay nháº¹, dá»… Äƒn
+
+**á»¨ng dá»¥ng:**
+âœ… TÆ°Æ¡ng á»›t xanh (Green hot sauce)
+âœ… Salsa verde
+âœ… TÆ°Æ¡ng á»›t tÆ°Æ¡i
+âœ… Pickled jalapeÃ±o sauce
+
+**Sáº£n pháº©m:**
+- **Huy Fong JalapeÃ±o Sauce**
+- **El Yucateco Green Habanero** (cÃ³ jalapeÃ±o)
+- CÃ¡c loáº¡i tÆ°Æ¡ng á»›t xanh Mexico
+
+**Äáº·c biá»‡t:**
+Khi hun khÃ³i vÃ  sáº¥y khÃ´ â†’ **Chipotle**, táº¡o ra tÆ°Æ¡ng á»›t cÃ³ vá»‹ khÃ³i Ä‘áº·c trÆ°ng.
+
+### 3. Habanero - Cay VÃ  ThÆ¡m
+
+**Äá»™ cay:** 100,000-350,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- Cá»±c ká»³ cay
+- HÆ°Æ¡ng trÃ¡i cÃ¢y nhiá»‡t Ä‘á»›i
+- MÃ u cam, Ä‘á», vÃ ng, nÃ¢u
+- Vá»‹ ngá»t trÆ°á»›c khi cay
+
+**Táº¡i sao Ä‘Æ°á»£c yÃªu thÃ­ch:**
+âœ… HÆ°Æ¡ng thÆ¡m Ä‘áº·c trÆ°ng
+âœ… Vá»‹ phá»©c táº¡p
+âœ… Äá»™ cay cao cho "cay phÃª"
+âœ… Káº¿t há»£p tá»‘t vá»›i trÃ¡i cÃ¢y
+
+**Sáº£n pháº©m ná»•i tiáº¿ng:**
+- **El Yucateco** series
+- **Marie Sharp's** (Belize)
+- **Melinda's** sá»‘t habanero
+- **Yellowbird** Habanero
+
+**CÃ´ng thá»©c phá»• biáº¿n:**
+- Habanero + xoÃ i
+- Habanero + dá»©a
+- Habanero + cÃ  rá»‘t
+- Habanero + Ä‘Ã o
+
+### 4. Tabasco Pepper - Biá»ƒu TÆ°á»£ng Louisiana
+
+**Äá»™ cay:** 30,000-50,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- á»št nhá», mÃ u vÃ ngâ†’camâ†’Ä‘á»
+- Vá»‹ cay, hÆ¡i chua
+- LÃªn men 3 nÄƒm trong thÃ¹ng gá»— sá»“i
+
+**Sáº£n pháº©m:**
+- **Tabasco Original Red Sauce** - Ná»•i tiáº¿ng nháº¥t tháº¿ giá»›i!
+- **Tabasco Green Sauce**
+- **Tabasco Habanero**
+
+Chá»‰ 3 nguyÃªn liá»‡u: á»št Tabasco, muá»‘i, giáº¥m!
+
+### 5. Serrano - CÃ¢n Báº±ng HoÃ n Háº£o
+
+**Äá»™ cay:** 10,000-25,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- Nhá» hÆ¡n jalapeÃ±o
+- Cay hÆ¡n jalapeÃ±o 5 láº§n
+- Vá»‹ tÆ°Æ¡i, sáº¯c nÃ©t
+- MÃ u xanh hoáº·c Ä‘á»
+
+**á»¨ng dá»¥ng:**
+âœ… Salsa tÆ°Æ¡i
+âœ… Pico de gallo
+âœ… TÆ°Æ¡ng á»›t Mexico
+âœ… Salsa verde
+
+**Æ¯u Ä‘iá»ƒm:**
+- Cay vá»«a pháº£i
+- KhÃ´ng quÃ¡ "nÃ³ng"
+- Dá»… tÃ¬m, giÃ¡ ráº»
+- HÆ°Æ¡ng vá»‹ tuyá»‡t vá»i
+
+### 6. Thai Chili / Bird's Eye - ChÃ¢u Ã
+
+**Äá»™ cay:** 50,000-100,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- Nhá» nháº¯n nhÆ°ng Cá»°C cay
+- MÃ u Ä‘á», xanh, cam
+- Vá»‹ cay sáº¯c, nhanh
+- HÆ°Æ¡ng thÆ¡m Ä‘áº·c trÆ°ng
+
+**Sáº£n pháº©m ChÃ¢u Ã:**
+- **Sriracha** (Huy Fong, Flying Goose)
+- **Sambal Oelek**
+- **Sweet Chili Sauce**
+- TÆ°Æ¡ng á»›t ThÃ¡i, Viá»‡t
+
+**Äáº·c biá»‡t:**
+á»žt hiá»ƒm Viá»‡t Nam thuá»™c nhÃ³m nÃ y!
+
+### 7. Scotch Bonnet - Caribbean Style
+
+**Äá»™ cay:** 100,000-350,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- Giá»‘ng habanero
+- HÃ¬nh chiáº¿c mÅ© Ä‘á»™c Ä‘Ã¡o
+- Vá»‹ trÃ¡i cÃ¢y nhiá»‡t Ä‘á»›i
+- Phá»• biáº¿n vÃ¹ng Caribbean
+
+**Sáº£n pháº©m:**
+- **Walkerswood Scotch Bonnet**
+- **Baron's Hot Sauce**
+- Jerk sauces
+
+### 8. Ghost Pepper (Bhut Jolokia) - SiÃªu Cay
+
+**Äá»™ cay:** 850,000-1,463,000 SHU
+
+**Sá»­ dá»¥ng:**
+- TÆ°Æ¡ng á»›t siÃªu cay
+- Extreme hot sauce
+- Challenge sauces
+- Chá»‰ dÃ¹ng lÆ°á»£ng ráº¥t Ã­t!
+
+**Sáº£n pháº©m:**
+- **Dave's Ghost Pepper Sauce**
+- **Blair's Ultra Death**
+- **Mad Dog 357 Ghost**
+
+âš ï¸ **Cáº£nh bÃ¡o:** Cá»±c ká»³ cay! Chá»‰ cho ngÆ°á»i am hiá»ƒu.
+
+### 9. Chipotle - Vá»‹ KhÃ³i Äáº·c TrÆ°ng
+
+**Äá»™ cay:** 2,500-10,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+- JalapeÃ±o hun khÃ³i
+- MÃ u nÃ¢u sáº«m
+- Vá»‹ khÃ³i Ä‘áº­m Ä‘Ã 
+- Ngá»t nháº¹
+
+**Sáº£n pháº©m:**
+- **Tabasco Chipotle**
+- **Cholula Chipotle**
+- BBQ sauces
+- Adobo sauces
+
+### 10. á»št Viá»‡t Nam - TÆ°Æ¡ng á»št Truyá»n Thá»‘ng
+
+**Loáº¡i phá»• biáº¿n:**
+- **á»št hiá»ƒm:** 100,000-225,000 SHU
+- **á»št chá»‰ thiÃªn:** 100,000-250,000 SHU
+- **á»št sá»«ng:** 5,000-30,000 SHU
+
+**Äáº·c Ä‘iá»ƒm:**
+âœ… HÆ°Æ¡ng thÆ¡m Ä‘áº·c trÆ°ng Viá»‡t
+âœ… Äá»™ cay vá»«a pháº£i
+âœ… PhÃ¹ há»£p kháº©u vá»‹ ngÆ°á»i Viá»‡t
+âœ… GiÃ¡ trá»‹ dinh dÆ°á»¡ng cao
+
+**CÃ´ng thá»©c truyá»n thá»‘ng:**
+- á»št tÆ°Æ¡i
+- Muá»‘i
+- ÄÆ°á»ng (Ã­t)
+- KHÃ”NG tá»i, KHÃ”NG cÃ  chua (nhÆ° BÃ´ng á»št)
+
+## So SÃ¡nh CÃ¡c Loáº¡i á»št
+
+| Loáº¡i á»št | SHU | Vá»‹ | DÃ¹ng Cho |
+|----------|-----|-----|----------|
+| JalapeÃ±o | 2,500-8,000 | TÆ°Æ¡i, ngá»t | TÆ°Æ¡ng nháº¹ |
+| Cayenne | 25,000-50,000 | CÃ¢n báº±ng | TÆ°Æ¡ng kinh Ä‘iá»ƒn |
+| Tabasco | 30,000-50,000 | Chua, cay | Tabasco sauce |
+| Habanero | 100,000-350,000 | TrÃ¡i cÃ¢y | TÆ°Æ¡ng cao cáº¥p |
+| Ghost | 850,000+ | SiÃªu cay | Extreme sauce |
+
+## CÃ¡ch Chá»n á»št LÃ m TÆ°Æ¡ng
+
+### Má»¥c ÄÃ­ch
+
+**TÆ°Æ¡ng Äƒn hÃ ng ngÃ y:**
+â†’ JalapeÃ±o, Serrano, Cayenne
+
+**TÆ°Æ¡ng cay máº¡nh:**
+â†’ Habanero, Thai chili
+
+**TÆ°Æ¡ng siÃªu cay:**
+â†’ Ghost Pepper, Carolina Reaper
+
+**TÆ°Æ¡ng cÃ³ hÆ°Æ¡ng vá»‹:**
+â†’ Habanero, Scotch Bonnet, Chipotle
+
+### Äá»™ TÆ°Æ¡i
+
+âœ… **á»št tÆ°Æ¡i:** HÆ°Æ¡ng vá»‹ tÆ°Æ¡i mÃ¡t (JalapeÃ±o, Serrano)
+âœ… **á»št khÃ´:** Vá»‹ Ä‘áº­m Ä‘Ã  (Cayenne, Chipotle)
+âœ… **LÃªn men:** Phá»©c táº¡p (Tabasco style)
+
+### MÃ u Sáº¯c
+
+ðŸ”´ **Äá»:** Cayenne, Tabasco (classic)
+ðŸŸ¢ **Xanh:** JalapeÃ±o, Serrano (fresh)
+ðŸŸ  **Cam:** Habanero (exotic)
+ðŸŸ¤ **NÃ¢u:** Chipotle (smoky)
+
+## Quy TrÃ¬nh LÃ m TÆ°Æ¡ng CÆ¡ Báº£n
+
+### PhÆ°Æ¡ng PhÃ¡p 1: TÆ°Æ¡i (Fresh)
+
+1. Chá»n á»›t tÆ°Æ¡i (JalapeÃ±o, Serrano)
+2. Rá»­a sáº¡ch, bá» cuá»‘ng
+3. Xay nhuyá»…n vá»›i giáº¥m, muá»‘i
+4. Náº¥u nháº¹ 5-10 phÃºt
+5. Lá»c hoáº·c Ä‘á»ƒ nguyÃªn
+6. ÄÃ³ng chai
+
+### PhÆ°Æ¡ng PhÃ¡p 2: LÃªn Men (Fermented)
+
+1. á»št tÆ°Æ¡i + muá»‘i
+2. NgÃ¢m nÆ°á»›c muá»‘i 3-7 ngÃ y
+3. Xay nhuyá»…n
+4. ThÃªm giáº¥m
+5. ÄÃ³ng chai
+
+### PhÆ°Æ¡ng PhÃ¡p 3: Truyá»n Thá»‘ng Viá»‡t
+
+1. á»št tÆ°Æ¡i Viá»‡t Nam
+2. Rá»­a sáº¡ch, phÆ¡i rÃ¡o
+3. Xay vá»›i muá»‘i, Ä‘Æ°á»ng
+4. KhÃ´ng náº¥u (giá»¯ nguyÃªn enzyme)
+5. á»¦ 2-3 ngÃ y
+6. Báº£o quáº£n tá»§ láº¡nh
+
+## TÆ°Æ¡ng á»št BÃ´ng á»št
+
+**Äáº·c biá»‡t:**
+- Sá»­ dá»¥ng á»›t Viá»‡t Nam cháº¥t lÆ°á»£ng cao
+- CÃ´ng thá»©c gia truyá»n
+- KhÃ´ng cháº¥t báº£o quáº£n
+- KhÃ´ng tá»i, khÃ´ng cÃ  chua
+- 100% tá»± nhiÃªn
+
+**Äá»™ cay:**
+Vá»«a pháº£i, phÃ¹ há»£p ngÆ°á»i Viá»‡t - khÃ´ng quÃ¡ nháº¹ nhÆ° jalapeÃ±o, khÃ´ng quÃ¡ cay nhÆ° habanero.
+
+**LiÃªn há»‡ Ä‘áº·t hÃ ng:**
+ðŸ“± Zalo: 0982 722 036
+ðŸ“ Sá»‘ 8, NgÃµ 135 NÃºi TrÃºc, Giáº£ng VÃµ, HÃ  Ná»™i
+        `,
+        date: '10/02/2026',
+        category: 'Kiáº¿n Thá»©c',
+        image: '/images/chili-products.png',
+        icon: Droplet,
+        readTime: '11 phÃºt'
+    },
+    {
+        id: '6',
+        title: 'CÃ´ng Dá»¥ng Tuyá»‡t Vá»i Cá»§a á»št Vá»›i Sá»©c Khá»e',
+        excerpt: 'KhÃ¡m phÃ¡ 15 lá»£i Ã­ch sá»©c khá»e Ä‘Æ°á»£c chá»©ng minh khoa há»c cá»§a á»›t vÃ  capsaicin. Tá»« giáº£m cÃ¢n, tÄƒng miá»…n dá»‹ch Ä‘áº¿n phÃ²ng ngá»«a ung thÆ° vÃ  kÃ©o dÃ i tuá»•i thá».',
+        content: `
+## Capsaicin - Hoáº¡t Cháº¥t VÃ ng
+
+Capsaicin lÃ  há»£p cháº¥t táº¡o nÃªn vá»‹ cay cá»§a á»›t vÃ  lÃ  chÃ¬a khÃ³a cho háº§u háº¿t lá»£i Ã­ch sá»©c khá»e.
+
+**CÆ¡ cháº¿ hoáº¡t Ä‘á»™ng:**
+- KÃ­ch hoáº¡t thá»¥ thá»ƒ TRPV1
+- Giáº£i phÃ³ng endorphin
+- TÄƒng nhiá»‡t Ä‘á»™ cÆ¡ thá»ƒ
+- KÃ­ch thÃ­ch trao Ä‘á»•i cháº¥t
+
+## 15 Lá»£i Ãch Sá»©c Khá»e ÄÆ°á»£c Chá»©ng Minh
+
+### 1. Há»— Trá»£ Giáº£m CÃ¢n Hiá»‡u Quáº£
+
+**CÆ¡ cháº¿:**
+âœ… **TÄƒng Thermogenesis** - Sáº£n sinh nhiá»‡t
+- Äá»‘t chÃ¡y thÃªm 50-100 calo/ngÃ y
+- TÄƒng nhiá»‡t Ä‘á»™ cÆ¡ thá»ƒ
+- TÄƒng tá»‘c Ä‘á»™ trao Ä‘á»•i cháº¥t 5-10%
+
+âœ… **Giáº£m Cáº£m GiÃ¡c ÄÃ³i**
+- TÄƒng cáº£m giÃ¡c no
+- Giáº£m lÆ°á»£ng calo náº¡p vÃ o
+- Kiá»ƒm soÃ¡t thÃ¨m Äƒn
+
+âœ… **Chuyá»ƒn HÃ³a Má»¡ Tráº¯ng â†’ Má»¡ NÃ¢u**
+- Má»¡ nÃ¢u Ä‘á»‘t calo Ä‘á»ƒ táº¡o nhiá»‡t
+- "Browning" cá»§a táº¿ bÃ o má»¡
+- Giáº£m má»¡ bá»¥ng
+
+**NghiÃªn cá»©u (2023):**
+Meta-analysis cho tháº¥y bá»• sung capsaicin:
+- Giáº£m BMI Ä‘Ã¡ng ká»ƒ
+- Giáº£m cÃ¢n hiá»‡u quáº£
+- Giáº£m vÃ²ng eo
+
+**Liá»u lÆ°á»£ng khuyáº¿n nghá»‹:**
+2-5g á»›t tÆ°Æ¡i/ngÃ y hoáº·c 1-2 thÃ¬a tÆ°Æ¡ng á»›t
+
+### 2. TÄƒng CÆ°á»ng Há»‡ Miá»…n Dá»‹ch
+
+**Vitamin C SiÃªu Cao:**
+- 1 quáº£ á»›t = 150% nhu cáº§u vitamin C hÃ ng ngÃ y
+- Cao gáº¥p 2-3 láº§n cam
+- TÄƒng sáº£n xuáº¥t báº¡ch cáº§u
+
+**Cháº¥t Chá»‘ng Oxi HÃ³a:**
+- Beta-carotene â†’ Vitamin A
+- Quercetin - chá»‘ng viÃªm
+- Capsanthin - Ä‘áº·c trÆ°ng á»›t Ä‘á»
+- Vitamin E
+
+**TÃ­nh KhÃ¡ng Khuáº©n:**
+- TiÃªu diá»‡t vi khuáº©n H. pylori (loÃ©t dáº¡ dÃ y)
+- Chá»‘ng nhiá»…m trÃ¹ng
+- Há»— trá»£ Ä‘Æ°á»ng hÃ´ háº¥p
+
+**NghiÃªn cá»©u:**
+NgÆ°á»i Äƒn á»›t thÆ°á»ng xuyÃªn cÃ³:
+- Sá»‘ lÆ°á»£ng báº¡ch cáº§u cao hÆ¡n 20%
+- Ãt bá»‹ cáº£m cÃºm hÆ¡n
+- Há»‡ miá»…n dá»‹ch máº¡nh máº½ hÆ¡n
+
+### 3. Báº£o Vá»‡ Tim Máº¡ch
+
+**Lá»£i Ã­ch:**
+âœ… Giáº£m cholesterol xáº¥u (LDL)
+âœ… TÄƒng cholesterol tá»‘t (HDL)
+âœ… NgÄƒn hÃ¬nh thÃ nh cá»¥c mÃ¡u Ä‘Ã´ng
+âœ… Cáº£i thiá»‡n tuáº§n hoÃ n mÃ¡u
+âœ… Giáº£m huyáº¿t Ã¡p
+âœ… Chá»‘ng viÃªm máº¡ch mÃ¡u
+
+**NghiÃªn cá»©u lá»›n:**
+NghiÃªn cá»©u 500,000 ngÆ°á»i táº¡i Trung Quá»‘c:
+- Ä‚n á»›t hÃ ng ngÃ y: Giáº£m 14% nguy cÆ¡ tá»­ vong
+- Giáº£m 40% nguy cÆ¡ Ä‘á»™t quá»µ
+- Giáº£m 26% nguy cÆ¡ bá»‡nh tim
+
+**CÆ¡ cháº¿:**
+Capsaicin lÃ m giáº£m plaque tÃ­ch tá»¥ trong Ä‘á»™ng máº¡ch do tÃ­nh chá»‘ng viÃªm.
+
+### 4. Giáº£m Äau Tá»± NhiÃªn
+
+**á»¨ng dá»¥ng:**
+âœ… Äau khá»›p, viÃªm khá»›p
+âœ… Äau tháº§n kinh
+âœ… Äau Ä‘áº§u migraine
+âœ… Äau cÆ¡
+âœ… Äau dÃ¢y tháº§n kinh tiá»ƒu Ä‘Æ°á»ng
+
+**CÆ¡ cháº¿:**
+- LÃ m cáº¡n kiá»‡t cháº¥t P (cháº¥t dáº«n truyá»n Ä‘au)
+- KÃ­ch hoáº¡t giáº£i phÃ³ng endorphin (morphine tá»± nhiÃªn)
+- Giáº£m viÃªm
+
+**Sáº£n pháº©m y táº¿:**
+- Thuá»‘c bÃ´i capsaicin (0.025-0.075%)
+- Miáº¿ng dÃ¡n capsaicin
+- Kem giáº£m Ä‘au
+
+**FDA Ä‘Ã£ phÃª duyá»‡t** capsaicin cho Ä‘iá»u trá»‹ Ä‘au tháº§n kinh!
+
+### 5. Kiá»ƒm SoÃ¡t ÄÆ°á»ng Huyáº¿t
+
+**Lá»£i Ã­ch:**
+âœ… Cáº£i thiá»‡n Ä‘á»™ nháº¡y insulin
+âœ… Giáº£m Ä‘Æ°á»ng huyáº¿t sau Äƒn
+âœ… TÄƒng háº¥p thu glucose vÃ o táº¿ bÃ o cÆ¡
+âœ… Giáº£m nguy cÆ¡ tiá»ƒu Ä‘Æ°á»ng type 2
+
+**NghiÃªn cá»©u:**
+- á»št giáº£m glucose mÃ¡u sau Äƒn á»Ÿ ngÆ°á»i tiá»ƒu Ä‘Æ°á»ng thai ká»³
+- Cáº£i thiá»‡n dung náº¡p glucose
+- Há»— trá»£ kiá»ƒm soÃ¡t HbA1c
+
+**LÆ°u Ã½:**
+KhÃ´ng thay tháº¿ thuá»‘c! Há»i bÃ¡c sÄ© trÆ°á»›c khi dÃ¹ng.
+
+### 6. Chá»‘ng Ung ThÆ°
+
+**CÆ¡ cháº¿:**
+Capsaicin cÃ³ kháº£ nÄƒng:
+âœ… NgÄƒn cháº·n sá»± phÃ¡t triá»ƒn táº¿ bÃ o ung thÆ°
+âœ… KÃ­ch thÃ­ch apoptosis (cháº¿t tá»± nhiÃªn cá»§a táº¿ bÃ o ung thÆ°)
+âœ… Giáº£m stress oxy hÃ³a
+âœ… Chá»‘ng di cÄƒn
+
+**Loáº¡i ung thÆ°:**
+- **Tuyáº¿n tiá»n liá»‡t:** Hiá»‡u quáº£ cao nháº¥t
+- **Phá»•i:** Giáº£m phÃ¡t triá»ƒn
+- **Dáº¡ dÃ y:** PhÃ²ng ngá»«a
+- **Äáº¡i trÃ ng:** Chá»‘ng polyp
+
+**NghiÃªn cá»©u tiá»n lÃ¢m sÃ ng:**
+Capsaicin á»©c cháº¿ nhiá»u loáº¡i táº¿ bÃ o ung thÆ° trong á»‘ng nghiá»‡m.
+
+âš ï¸ **LÆ°u Ã½:** Cáº§n thÃªm nghiÃªn cá»©u lÃ¢m sÃ ng trÃªn ngÆ°á»i.
+
+### 7. Cáº£i Thiá»‡n TiÃªu HÃ³a
+
+**Lá»£i Ã­ch:**
+âœ… KÃ­ch thÃ­ch tiáº¿t dá»‹ch vá»‹
+âœ… TÄƒng enzyme tiÃªu hÃ³a
+âœ… Cáº£i thiá»‡n nhu Ä‘á»™ng ruá»™t
+âœ… PhÃ²ng ngá»«a tÃ¡o bÃ³n
+âœ… Há»— trá»£ háº¥p thu dinh dÆ°á»¡ng
+
+**Báº£o vá»‡ dáº¡ dÃ y:**
+- TÄƒng cháº¥t nháº§y báº£o vá»‡
+- NgÄƒn loÃ©t dáº¡ dÃ y (náº¿u dÃ¹ng Ä‘Ãºng liá»u)
+- Chá»‘ng H. pylori
+
+**LÆ°u Ã½:**
+âŒ NgÆ°á»i Ä‘ang bá»‹ loÃ©t dáº¡ dÃ y nÃªn trÃ¡nh
+âœ… NgÆ°á»i khá»e máº¡nh: tá»‘t cho dáº¡ dÃ y
+
+### 8. Chá»‘ng ViÃªm Máº¡nh Máº½
+
+**Hiá»‡u quáº£:**
+âœ… Giáº£m viÃªm khá»›p
+âœ… Giáº£m viÃªm dáº¡ dÃ y (khÃ´ng cáº¥p tÃ­nh)
+âœ… Chá»‘ng viÃªm máº¡ch mÃ¡u
+âœ… Giáº£m cytokine viÃªm
+
+**á»¨ng dá»¥ng:**
+- ViÃªm khá»›p dáº¡ng tháº¥p
+- ViÃªm xÆ°Æ¡ng khá»›p
+- ViÃªm cÆ¡
+- Psoriasis
+
+### 9. KÃ©o DÃ i Tuá»•i Thá»
+
+**NghiÃªn cá»©u epidemiology:**
+NgÆ°á»i Äƒn á»›t 6-7 ngÃ y/tuáº§n:
+- Giáº£m 14% nguy cÆ¡ tá»­ vong sá»›m
+- Sá»‘ng lÃ¢u hÆ¡n ngÆ°á»i khÃ´ng Äƒn á»›t
+- Ãt máº¯c bá»‡nh mÃ£n tÃ­nh
+
+**CÆ¡ cháº¿:**
+- Chá»‘ng oxy hÃ³a
+- Báº£o vá»‡ DNA
+- Giáº£m viÃªm mÃ£n tÃ­nh
+- Cáº£i thiá»‡n sá»©c khá»e tim máº¡ch
+
+### 10. TÄƒng CÆ°á»ng NÃ£o Bá»™
+
+**Lá»£i Ã­ch:**
+âœ… Cáº£i thiá»‡n trÃ­ nhá»›
+âœ… TÄƒng táº­p trung
+âœ… Báº£o vá»‡ táº¿ bÃ o tháº§n kinh
+âœ… Giáº£m nguy cÆ¡ Alzheimer
+
+**CÆ¡ cháº¿:**
+- TÄƒng lÆ°u thÃ´ng mÃ¡u lÃªn nÃ£o
+- Chá»‘ng oxy hÃ³a táº¿ bÃ o tháº§n kinh
+- áº¢nh hÆ°á»Ÿng tÃ­ch cá»±c lÃªn vi khuáº©n Ä‘Æ°á»ng ruá»™t
+- LiÃªn quan Ä‘áº¿n cháº¥t chuyá»ƒn hÃ³a cholesterol
+
+**NghiÃªn cá»©u:**
+Capsaicin cÃ³ tÃ¡c dá»¥ng báº£o vá»‡ tháº§n kinh trong Alzheimer thÃ´ng qua vi sinh váº­t Ä‘Æ°á»ng ruá»™t.
+
+### 11. Cáº£i Thiá»‡n Da
+
+**Lá»£i Ã­ch:**
+âœ… Giáº£m má»¥n (khÃ¡ng khuáº©n)
+âœ… Chá»‘ng lÃ£o hÃ³a (chá»‘ng oxy hÃ³a)
+âœ… TÄƒng tuáº§n hoÃ n mÃ¡u da
+âœ… KÃ­ch thÃ­ch collagen
+
+**Vitamin A (Beta-carotene):**
+- TÃ¡i táº¡o táº¿ bÃ o da
+- Chá»‘ng náº¿p nhÄƒn
+- Da sÃ¡ng khá»e
+
+### 12. Há»— Trá»£ Gan
+
+**Lá»£i Ã­ch:**
+âœ… Giáº£m má»¡ gan
+âœ… Giáº£m triglyceride gan
+âœ… Cáº£i thiá»‡n enzyme gan
+âœ… Chá»‘ng viÃªm gan
+
+**NghiÃªn cá»©u:**
+Capsaicin giÃºp giáº£m hepatic triglycerides vÃ  cáº£i thiá»‡n tÃ¬nh tráº¡ng chuyá»ƒn hÃ³a gan.
+
+### 13. TÄƒng CÆ°á»ng Hormone Vui
+
+**Endorphin:**
+- CÆ¡ thá»ƒ giáº£i phÃ³ng endorphin Ä‘á»ƒ chá»‘ng Ä‘au
+- Táº¡o cáº£m giÃ¡c "phÃª", vui váº»
+- Giáº£m stress, lo Ã¢u
+- Cáº£i thiá»‡n tÃ¢m tráº¡ng
+
+**Dopamine:**
+- TÄƒng cáº£m giÃ¡c hÃ i lÃ²ng
+- Äá»™ng lá»±c
+
+â†’ ÄÃ¢y lÃ  lÃ½ do nhiá»u ngÆ°á»i "nghiá»‡n" á»›t!
+
+### 14. Cáº£i Thiá»‡n Tuáº§n HoÃ n
+
+**Lá»£i Ã­ch:**
+âœ… GiÃ£n máº¡ch mÃ¡u
+âœ… TÄƒng lÆ°u lÆ°á»£ng mÃ¡u
+âœ… áº¤m tay chÃ¢n
+âœ… Giáº£m tÃª bÃ¡i
+âœ… Cáº£i thiá»‡n erection (nam)
+
+**CÆ¡ cháº¿:**
+KÃ­ch thÃ­ch NO (nitric oxide) â†’ giÃ£n máº¡ch.
+
+### 15. TÄƒng Háº¥p Thu Dinh DÆ°á»¡ng
+
+**Lá»£i Ã­ch:**
+âœ… TÄƒng háº¥p thu cÃ¡c vitamin tan trong dáº§u (A, D, E, K)
+âœ… TÄƒng háº¥p thu beta-carotene
+âœ… Cáº£i thiá»‡n sinh kháº£ dá»¥ng cá»§a thá»±c pháº©m
+
+**Máº¹o:**
+Káº¿t há»£p á»›t vá»›i cháº¥t bÃ©o lÃ nh máº¡nh (dáº§u Ã´ liu, bÆ¡, háº¡t) Ä‘á»ƒ tá»‘i Æ°u háº¥p thu!
+
+## Liá»u LÆ°á»£ng An ToÃ n
+
+### NgÆ°á»i BÃ¬nh ThÆ°á»ng
+- **2-5g á»›t tÆ°Æ¡i/ngÃ y**
+- TÆ°Æ¡ng Ä‘Æ°Æ¡ng 1-2 thÃ¬a tÆ°Æ¡ng á»›t
+- Hoáº·c 3-5 quáº£ á»›t hiá»ƒm nhá»
+
+### NgÆ°á»i Muá»‘n Giáº£m CÃ¢n
+- **5-10g/ngÃ y**
+- Chia nhá» nhiá»u bá»¯a
+
+### Tráº» Em
+- **TrÃªn 5 tuá»•i:** 1/2 liá»u ngÆ°á»i lá»›n
+- **DÆ°á»›i 3 tuá»•i:** KhÃ´ng nÃªn
+
+### NgÆ°á»i Cao Tuá»•i
+- Báº¯t Ä‘áº§u liá»u tháº¥p
+- TÄƒng dáº§n
+- Tham kháº£o bÃ¡c sÄ©
+
+## Ai NÃªn Háº¡n Cháº¿?
+
+âŒ **TrÃ¡nh hoÃ n toÃ n:**
+- NgÆ°á»i bá»‹ loÃ©t dáº¡ dÃ y cáº¥p
+- ViÃªm dáº¡ dÃ y cáº¥p
+- TrÃ o ngÆ°á»£c dáº¡ dÃ y thá»±c quáº£n náº·ng
+- TrÄ© Ä‘ang cháº£y mÃ¡u
+
+âš ï¸ **Tháº­n trá»ng:**
+- Phá»¥ ná»¯ mang thai (há»i bÃ¡c sÄ©)
+- Äang dÃ¹ng thuá»‘c chá»‘ng Ä‘Ã´ng mÃ¡u
+- Chuáº©n bá»‹ pháº«u thuáº­t
+
+## CÃ¡ch DÃ¹ng Äá»ƒ Äáº¡t Hiá»‡u Quáº£ Tá»‘i Äa
+
+### 1. Ä‚n Äá»u Äáº·n
+- Má»—i ngÃ y tá»‘t hÆ¡n nhiá»u 1 láº§n
+- TÃ­ch lÅ©y theo thá»i gian
+
+### 2. Káº¿t Há»£p Cháº¥t BÃ©o
+- TÄƒng háº¥p thu capsaicin
+- Vitamin tan trong dáº§u
+
+### 3. Äa Dáº¡ng Loáº¡i á»št
+- Má»—i loáº¡i cÃ³ lá»£i Ã­ch riÃªng
+- Äa dáº¡ng cháº¥t chá»‘ng oxy hÃ³a
+
+### 4. DÃ¹ng á»št TÆ°Æ¡i
+- Giá»¯ nguyÃªn vitamin C
+- Enzyme sá»‘ng
+- HÆ°Æ¡ng vá»‹ tá»‘t nháº¥t
+
+### 5. Báº£o Quáº£n ÄÃºng CÃ¡ch
+- Tá»§ láº¡nh sau khi má»Ÿ
+- TrÃ¡nh Ã¡nh sÃ¡ng
+- DÃ¹ng thÃ¬a sáº¡ch
+
+## Káº¿t Há»£p Vá»›i Thá»±c Pháº©m KhÃ¡c
+
+### Combo TÄƒng Gáº¥p ÄÃ´i Hiá»‡u Quáº£
+
+**1. á»št + Nghá»‡:**
+Chá»‘ng viÃªm cá»±c máº¡nh, chá»‘ng ung thÆ°
+
+**2. á»št + Tá»i:**
+KhÃ¡ng khuáº©n, tÄƒng miá»…n dá»‹ch
+
+**3. á»št + Gá»«ng:**
+TÄƒng tuáº§n hoÃ n, giáº£m cÃ¢n
+
+**4. á»št + Chanh:**
+Vitamin C x2, chá»‘ng oxy hÃ³a
+
+**5. á»št + Dáº§u Ã´ liu:**
+Háº¥p thu tá»‘i Æ°u, tá»‘t cho tim
+
+## TÆ°Æ¡ng á»št BÃ´ng á»št - An ToÃ n Cho Sá»©c Khá»e
+
+**Cam káº¿t:**
+âœ… 100% á»›t tÆ°Æ¡i Viá»‡t Nam
+âœ… KhÃ´ng cháº¥t báº£o quáº£n Ä‘á»™c háº¡i
+âœ… KhÃ´ng tá»i (giáº£m kÃ­ch á»©ng dáº¡ dÃ y)
+âœ… KhÃ´ng cÃ  chua (trÃ¡nh acid cao)
+âœ… Quy trÃ¬nh thá»§ cÃ´ng
+âœ… Giá»¯ nguyÃªn dÆ°á»¡ng cháº¥t
+
+**Äá»™ cay:**
+Vá»«a pháº£i - Ä‘á»§ Ä‘á»ƒ cÃ³ lá»£i Ã­ch sá»©c khá»e, khÃ´ng quÃ¡ cay gÃ¢y háº¡i!
+
+**LiÃªn há»‡:**
+ðŸ“± Zalo: 0982 722 036
+ðŸ“ Sá»‘ 8, NgÃµ 135 NÃºi TrÃºc, Giáº£ng VÃµ, HÃ  Ná»™i
+
+---
+
+**LÆ°u Ã½:** ThÃ´ng tin chá»‰ mang tÃ­nh tham kháº£o. Náº¿u cÃ³ bá»‡nh lÃ½, hÃ£y tham kháº£o bÃ¡c sÄ© trÆ°á»›c khi thay Ä‘á»•i cháº¿ Ä‘á»™ Äƒn.
+        `,
+        date: '11/02/2026',
+        category: 'Sá»©c Khá»e',
+        image: '/images/chili-ingredients.png',
+        icon: HeartPulse,
+        readTime: '15 phÃºt'
+    }
+]

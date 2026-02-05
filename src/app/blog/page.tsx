@@ -1,5 +1,8 @@
 'use client'
 
+// ============================================
+// IMPORTS
+// ============================================
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -25,6 +28,9 @@ import {
     DialogTitle,
 } from "@/components/ui/dialog"
 
+// ============================================
+// TYPES & INTERFACES
+// ============================================
 interface BlogPost {
     id: string
     title: string
@@ -37,7 +43,14 @@ interface BlogPost {
     readTime: string
 }
 
-// Function to convert markdown table to HTML
+// ============================================
+// UTILITY FUNCTIONS
+// ============================================
+
+/**
+ * Converts markdown tables to styled HTML tables
+ * Handles table headers, rows, and applies responsive styling
+ */
 function parseMarkdownTable(text: string): string {
     // Find all tables (lines starting with |)
     const tableRegex = /(\|.+\|\n)+/g
@@ -79,6 +92,17 @@ function parseMarkdownTable(text: string): string {
     })
 }
 
+// ============================================
+// BLOG POST DATA
+// ============================================
+// To add a new blog post:
+// 1. Copy an existing post object
+// 2. Update id, title, excerpt, content, date, category, icon, readTime
+// 3. Add your content using markdown format
+// 4. Tables will be automatically styled by parseMarkdownTable()
+//
+// NOTE: When you have 10+ posts, consider moving this to a separate
+// blogData.ts file or using a CMS/database
 
 const blogPosts: BlogPost[] = [
     {
@@ -1665,6 +1689,9 @@ Vừa phải - đủ để có lợi ích sức khỏe, không quá cay gây h�
     }
 ]
 
+// ============================================
+// MAIN COMPONENT
+// ============================================
 export default function BlogPage() {
     const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
 
