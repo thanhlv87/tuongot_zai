@@ -34,6 +34,49 @@ interface BlogPost {
     readTime: string
 }
 
+// Function to convert markdown table to HTML
+function parseMarkdownTable(text: string): string {
+    // Find all tables (lines starting with |)
+    const tableRegex = /(\|.+\|\n)+/g
+
+    return text.replace(tableRegex, (tableMatch) => {
+        const rows = tableMatch.trim().split('\n')
+        if (rows.length < 2) return tableMatch
+
+        // Extract headers (first row)
+        const headers = rows[0].split('|').filter(cell => cell.trim()).map(cell => cell.trim())
+
+        // Skip separator row (second row with dashes)
+        const dataRows = rows.slice(2).filter(row => row.includes('|'))
+
+        // Build HTML table
+        let html = '<div class="overflow-x-auto my-6"><table class="min-w-full border-collapse border-2 border-orange-200 rounded-lg">'
+
+        // Header
+        html += '<thead class="bg-gradient-to-r from-orange-100 to-red-100"><tr>'
+        headers.forEach(header => {
+            html += `<th class="border border-orange-300 px-3 sm:px-4 py-2 sm:py-3 text-left text-xs sm:text-sm font-bold text-gray-900">${header}</th>`
+        })
+        html += '</tr></thead>'
+
+        // Body
+        html += '<tbody class="bg-white">'
+        dataRows.forEach((row, index) => {
+            const cells = row.split('|').filter(cell => cell.trim()).map(cell => cell.trim())
+            const bgClass = index % 2 === 0 ? 'bg-white' : 'bg-orange-50/30'
+            html += `<tr class="${bgClass} hover:bg-orange-50 transition-colors">`
+            cells.forEach(cell => {
+                html += `<td class="border border-orange-200 px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm text-gray-700">${cell}</td>`
+            })
+            html += '</tr>'
+        })
+        html += '</tbody></table></div>'
+
+        return html
+    })
+}
+
+
 const blogPosts: BlogPost[] = [
     {
         id: '1',
@@ -842,12 +885,12 @@ export default function BlogPage() {
                             </DialogHeader>
                             <div className="prose prose-sm sm:prose-base prose-orange max-w-none mt-4 sm:mt-6">
                                 <div
-                                    className="text-gray-700 leading-relaxed whitespace-pre-wrap text-sm sm:text-base"
+                                    className="text-gray-700 leading-relaxed text-sm sm:text-base [&_table]:shadow-lg [&_table]:rounded-lg"
                                     dangerouslySetInnerHTML={{
-                                        __html: selectedPost.content
+                                        __html: parseMarkdownTable(selectedPost.content)
                                             .replace(/\n## /g, '<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mt-6 sm:mt-8 mb-3 sm:mb-4">')
                                             .replace(/\n### /g, '<h3 class="text-lg sm:text-xl font-bold text-gray-900 mt-4 sm:mt-6 mb-2 sm:mb-3">')
-                                            .replace(/\n\*\*(.+?)\*\*/g, '\n<strong class="text-gray-900">$1</strong>')
+                                            .replace(/\n\*\*(.+?)\*\*/g, '\n<strong class="text-gray-900 font-semibold">$1</strong>')
                                             .replace(/\n- /g, '\n• ')
                                             .replace(/\n/g, '<br />')
                                     }}
